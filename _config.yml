@@ -27,3 +27,7 @@ github_username:  satoryu
 # Build settings
 markdown: kramdown
 theme: minima
+
+gems:
+  - jekyll-sass-converter
+  - minima
