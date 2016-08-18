@@ -27,3 +27,6 @@ github_username:  satoryu
 # Build settings
 markdown: kramdown
 
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
