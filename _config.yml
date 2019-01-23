@@ -30,3 +30,5 @@ markdown: kramdown
 gems:
   - jekyll-feed
   - jekyll-sitemap
+
+theme: jekyll-theme-dinky
