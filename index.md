@@ -1,5 +1,6 @@
 ---
 layout: default
+title: satoryu
 sidebar: true
 ---
 
