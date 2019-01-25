@@ -13,22 +13,26 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: satoryu - Tatsuya Sato
+title: Tatsuya Sato's Portfolio
 email: satoryu.1981@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+# description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://satoryu.github.io" # the base hostname & protocol for your site
-twitter_username: sato_ryu
-github_username:  satoryu
+twitter:
+  username: sato_ryu
+github:
+  username: satoryu
+
+author:
+  name: Tatsuya Sato
+  location: Tokyo, Japan
 
 # Build settings
 markdown: kramdown
 
-gems:
+plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-remote-theme
 
-theme: jekyll-theme-dinky
+remote_theme: GeertArien/jekyll-theme-munky
