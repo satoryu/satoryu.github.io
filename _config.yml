@@ -36,5 +36,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-remote-theme
+  - jemoji
 
 theme: jekyll-theme-minimal

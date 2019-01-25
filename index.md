@@ -5,19 +5,19 @@ sidebar: true
 
 # 職務経歴書
 
-## 基本情報
+## :man: 基本情報
 
 | key         | value                                                                                                      |
 | ----------- | ---------------------------------------------------------------------------------------------------------- |
 | Name        | 佐藤 竜也 (Tatsuya Sato))                                                                                  |
 | Blog        | [satoryu の日記](https://satoryu.hatenablog.com/), [Satoryu's Diary](https://satoryu-diary.herokuapp.com/) |
-| GitHub      | [satoryu](https://github.com/satoryu)                                                                      |
+| GitHub  :octocat:     | [satoryu](https://github.com/satoryu)                                                                      |
 | Twitter     | [@sato_ryu](https://twitter.com/sato_ryu)                                                                  |
 | Qiita       | [sato_ryu](http://qiita.com/sato_ryu)                                                                      |
 | SlideShare  | [satoryu](http://www.slideshare.net/satoryu)                                                               |
 | Speakerdeck | [satoryu](https://speakerdeck.com/satoryu)                                                                 |
 
-## スキル
+## :computer: スキル
 
 ### 言語
 
@@ -70,22 +70,23 @@ sidebar: true
 - Vim
 - Visual Studio Code
 
-## 強み
+## :muscle: 強み
 
-## やったことはないが興味があるもの
+## :telescope: やったことはないが興味があるもの
 
 - AR/VR
 - IoT
 - k8s
+- AWS
 - GCP
 
-## 登壇歴
+## :microphone: 登壇歴
 
-## 受賞歴
+## :trophy: 受賞歴
 
-## 執筆歴
+## :pencil: 執筆歴
 
-## 職務経歴
+## :briefcase: 職務経歴
 
 ### yyyy/mm - : 会社名
 
