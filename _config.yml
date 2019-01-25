@@ -35,4 +35,4 @@ plugins:
   - jekyll-sitemap
   - jekyll-remote-theme
 
-remote_theme: GeertArien/jekyll-theme-munky
+remote_theme: benbalter/retlab
