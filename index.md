@@ -130,14 +130,14 @@ sidebar: true
 
 日本語訳の一部を担当しました。
 
-## OSS 活動
+## :art: OSS活動
 
 - [rakuten-ws/rws-ruby-sdk: Ruby Client for Rakuten Web Service](https://github.com/rakuten-ws/rws-ruby-sdk)
 - [ruby-ldap/ruby-net-ldap: Pure Ruby LDAP library](https://github.com/ruby-ldap/ruby-net-ldap)
 - [roma/roma: ROMA: A Distributed Key-Value Store in Ruby](https://github.com/roma/roma)
 - [satoryu/dajare](https://github.com/satoryu/dajare)
 
-## コミュニティ活動
+## :dancers: コミュニティ活動
 
 - [OSS Gate](https://oss-gate.github.io/)
 - [Regional Scrum Gathering Tokyo 2018 実行委員](https://2018.scrumgatheringtokyo.org)
@@ -160,18 +160,18 @@ sidebar: true
   - ファシリテーション
 - 技術要素
   - PHP
-    - Laravel
-    - Docker
-    - Microsoft Azure
-      - Azure WebApps
-      - Azure Functions
-      - Azure Storage
-      - Azure Cosmos Db
-      - Azure SQL Database
-      - Azure Redis Cache
-    - Git
-    - アジャイル開発
-    - モブプログラミング
+  - Laravel
+  - Docker
+  - Microsoft Azure
+    - Azure WebApps
+    - Azure Functions
+    - Azure Storage
+    - Azure Cosmos Db
+    - Azure SQL Database
+    - Azure Redis Cache
+  - Git
+  - アジャイル開発
+  - モブプログラミング
 
 #### 2018/07 - 2018/09: ビジネス配属新卒向けエンジニア研修
 
