@@ -88,6 +88,9 @@ sidebar: true
 
 <script async class="speakerdeck-embed" data-id="7bae20a318ad481b891fdf4db3b17a7c" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
+新規事業として始めた学習時間記録サービスの開発の中で、PoCやサービスインなどサービスに求められる変化に応じて、どのようにシステム構成や利用したAzureのサービスが変わっていったのかについて講演しました。
+講演でどのように話をしたのかは、ログミーさんに書き起こしていただきました。
+
 * [PoCからプロダクションまで　Azureが支えたPHPアプリケーション開発の舞台裏 - ログミーTech](https://logmi.jp/tech/articles/319412)
 
 ### [2018/02/16 Developers Summit 2018 実況パワフルモブプログラミング - Rakuten Super Englishにおけるモブプログラミングという働き方 -](https://event.shoeisha.jp/devsumi/20180215/session/1666/)
@@ -99,15 +102,19 @@ sidebar: true
 
 ### [2017/07/25 第7回 Tokyo JAZUG Night](https://jazug.connpass.com/event/60573/)
 
-当時まだ出たばかりのAzure Cosmos DBを利用するために検証していた中で発見した問題について、LTをしました。
-
 <script async class="speakerdeck-embed" data-id="2434ec4e8dce41cfbe29cf757ec79bac" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
+当時まだ出たばかりのAzure Cosmos DBを利用するために検証していた中で発見した問題について、LTをしました。
 
 ### [2016/10/07 社内勉強会を続けるコツ - DevLOVE関西](https://devlove-kansai.doorkeeper.jp/events/51876)
 
+<script async class="speakerdeck-embed" data-id="3470ae6f32d6411e9e20e16121e5fa76" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
 当時運営していたTech Talkという社内勉強会で得られたノウハウについて話をしました。
 
-<script async class="speakerdeck-embed" data-id="3470ae6f32d6411e9e20e16121e5fa76" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+### [2015/02/20 Developers Summit 2015 「じつは私、情シスでした。」- 業務の変化を前提としたアジリティの高い情シスチームの2年間](https://event.shoeisha.jp/devsumi/20150219/session/678/)
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/bIMjmKXHcv9t2J" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/satoryu/20150220-developer-summit" title="【20-A-5】「じつは私、情シスでした。」- 業務の変化を前提としたアジリティの高い情シスチームの2年間" target="_blank">【20-A-5】「じつは私、情シスでした。」- 業務の変化を前提としたアジリティの高い情シスチームの2年間</a> </strong> from <strong><a href="//www.slideshare.net/satoryu" target="_blank">Tatsuya Sato</a></strong> </div>
 
 ## :trophy: 受賞歴
 
