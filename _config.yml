@@ -18,17 +18,22 @@ email: satoryu.1981@gmail.com
 logo: assets/img/profile.jpeg
 google_analytics: UA-10079057-16
 
-# description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://satoryu.github.io" # the base hostname & protocol for your site
+
+## For SEO tags plugin
+author: Tatsuya Sato
 twitter:
   username: sato_ryu
-github:
-  username: satoryu
-
-author:
+  card: summary
+social:
   name: Tatsuya Sato
-  location: Tokyo, Japan
+  links:
+    - https://twitter.com/sato_ryu
+    - https://github.com/satoryu
+    - https://www.linkedin.com/in/tatsuya-sato/
+    - https://www.facebook.com/satoryu
+    - https://satoryu.hatenablog.com/
 
 # Build settings
 markdown: kramdown
