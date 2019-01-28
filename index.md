@@ -6,6 +6,8 @@ sidebar: true
 
 # :metal: About Me
 
+- :mailbox_with_mail: [お問い合わせ](https://github.com/satoryu/satoryu.github.io/issues/new/choose)
+
 ## :man: 基本情報
 
 | Name             | 佐藤 竜也 (Tatsuya Sato)                                |
