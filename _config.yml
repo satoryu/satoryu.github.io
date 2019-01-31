@@ -17,6 +17,7 @@ title: Tatsuya Sato (satoryu)
 email: satoryu.1981@gmail.com
 logo: assets/img/profile.jpeg
 google_analytics: UA-10079057-16
+repository: satoryu/satoryu.github.io
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://satoryu.github.io" # the base hostname & protocol for your site
