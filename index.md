@@ -161,7 +161,7 @@ sidebar: true
 サービスインの際には、お客さんに対して、導入時の従業員の方々へのアナウンスや呼びかけ方、導入時のKPIを決めやサポート体制について議論し、お客さんの企業に現れるであろう混乱をなるべく小さくすることに努めました。
 定期的な往訪を実施することで、お客さんの要望のヒアリング、悩み事の相談、また開発及びリリースの調整を、確約できる範囲で行うことができ、お客さんの期待値に応え続けることができました。
 また、その際に、単なる頼まれたことをするのではなく、お客さんにとってその時点での最大の問題に対して最大の価値を提供できるようにしていました。
-その結果、3度の契約更新に繋がり、現在も利用していただいています。
+その結果、3度の契約更新に繋げることができました。
 
 - 職務: エンジニア
   - アーキテクチャ設計、構築
@@ -234,10 +234,26 @@ sidebar: true
   - Redmine
   - Docker
   - Capistrano
-  - Jenkins
   - HipChat
 
 #### 2013/02 - 2016/06: 社内サービスの新旧リプレイス、運用
+
+外注し、納品されたままのレガシーな社内サービスのリプレイス、その後の開発・運用の中で、エンジニア兼スクラムマスターとして携わりました。
+
+ドキュメントが残されていない状況から可動しているサービスを直接操作した上で、仕様を特定していったり、バックエンドの一部であったActive Directoryの中を調査することで、外部仕様と内部仕様を特定するところからはじめました。
+それらの状態から最低限担保すべき部分を特定し、Ruby on Railsでスクラッチから構築しました。
+
+開発する中で必要となったライブラリの変更は、Pull Requestを送ことを続けるようにしていました。
+当時、RubyからActive Directoryを操作している事例が少なかったため、いくつかのバグや機能としての不備があったので、それらをフィードバックしました。
+
+- [Bugfix/filter parser fails to parse blackets by satoryu · Pull Request #157 · ruby-ldap/ruby-net-ldap](https://github.com/ruby-ldap/ruby-net-ldap/pull/157)
+- [Bug Fix: Fails to generate filter parser when given string includes multibyte chars. by satoryu · Pull Request #66 · ruby-ldap/ruby-net-ldap](https://github.com/ruby-ldap/ruby-net-ldap/pull/66)
+- [Specific errors subclassing Net::LDAP::Error by satoryu · Pull Request #183 · ruby-ldap/ruby-net-ldap](https://github.com/ruby-ldap/ruby-net-ldap/pull/183)
+- [Raise Net::LDAP::ConnectionRefusedError when new connection is refused. by satoryu · Pull Request #213 · ruby-ldap/ruby-net-ldap](https://github.com/ruby-ldap/ruby-net-ldap/pull/213)
+- [Net::LDAP#encryption accepts string by satoryu · Pull Request #239 · ruby-ldap/ruby-net-ldap](https://github.com/ruby-ldap/ruby-net-ldap/pull/239)
+- [Drop support for ruby 1.9.3 by satoryu · Pull Request #240 · ruby-ldap/ruby-net-ldap](https://github.com/ruby-ldap/ruby-net-ldap/pull/240)
+
+システムリプレイスの際には、並行稼動期間を設けたり、新規サービスに問題があった際にすぐに戻せるようにリカバリ対策を備えておくなどをし、ユーザー影響を最小限にすることに専念しました。
 
 - 職務: エンジニア、スクラムマスター
 - 技術要素
@@ -249,6 +265,8 @@ sidebar: true
   - Capistrano
   - Ansible
   - Scrum
+  - LDAP
+  - Active Directory
 
 #### 2011/09 - 2013/01: プライベート PaaS 環境構築、運用
 
