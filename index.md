@@ -88,6 +88,12 @@ sidebar: true
 
 ## :microphone: 登壇歴
 
+### [2019/02/22 Scrum Fest Osaka 2019](https://www.scrumosaka.org/)
+
+<script async class="speakerdeck-embed" data-id="94600e23e8554f4e9a410ce8102f9476" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
+このセッションでは、コミュ障な自分がお客さんと直接対話する仕事に携わった時にとても参考になった[Customer Interaction Patterns](https://hillside.net/plop/plop2002/final/CustomerInteraction.pdf)を、自分の話を交えつつ紹介しました。
+
 ### [2018/09/22 Japan Azure User Group 8 周年イベント](https://jazug.connpass.com/event/98033/)
 
 <script async class="speakerdeck-embed" data-id="7bae20a318ad481b891fdf4db3b17a7c" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
