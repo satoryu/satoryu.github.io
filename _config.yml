@@ -13,9 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Tatsuya Sato (satoryu)
+title: Satoryu's Website
+title_separator: "-"
+name: Tatsuya Sato
+description: Website about Tatsuya Sato
 email: satoryu.1981@gmail.com
-logo: assets/img/profile.jpeg
+logo: assets/img/logo.png
 google_analytics: UA-10079057-16
 repository: satoryu/satoryu.github.io
 
@@ -23,18 +26,39 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://satoryu.github.io" # the base hostname & protocol for your site
 
 ## For SEO tags plugin
-author: Tatsuya Sato
-twitter:
-  username: sato_ryu
-  card: summary
-social:
+author:
   name: Tatsuya Sato
+  avatar: assets/img/profile.jpeg
+  bio: Passionate Programmer / Father for two kids / MOSH'SH MATE
+  location: Tokyo, Japan
+  email: satoryu.1981@gmail.com
   links:
-    - https://twitter.com/sato_ryu
-    - https://github.com/satoryu
-    - https://www.linkedin.com/in/tatsuya-sato/
-    - https://www.facebook.com/satoryu
-    - https://satoryu.hatenablog.com/
+  links:
+    - label: GitHub
+      icon: fab fa-github-square
+      url: https://github.com/satoryu
+    - label: LinkedIn
+      icon: fab fa-linkedin
+      url: https://www.linkedin.com/in/tatsuya-sato/
+    - label: "Twitter"
+      icon: fab fa-twitter-square
+      url: https://twitter.com/satoryuofficial
+    - label: Facebook
+      icon: fab fa-facebook-square
+      url: https://www.facebook.com/satoryu
+    - label: Blog
+      icon: fas fa-blog
+      url: https://satoryu.hatenablog.com/
+
+# Social Sharing
+og_img: /assets/img/ogp.png
+twitter:
+  username: satoryuofficial
+
+analytics:
+  provider: google-gtag
+  google:
+    tracking_id: UA-10079057-16
 
 # Build settings
 markdown: kramdown
@@ -45,4 +69,20 @@ plugins:
   - jekyll-sitemap
   - jemoji
 
-theme: jekyll-theme-minimal
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: dirt
+
+include:
+  - _pages
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true

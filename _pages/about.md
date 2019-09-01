@@ -1,9 +1,28 @@
 ---
 title: About
-author_profile: true
+permalink: /about/
 ---
 
 ## :man: 基本情報
+
+### 名前
+
+佐藤　竜也（さとう　たつや）
+
+### 生年
+
+1981年7月29日
+
+### 略歴
+
+プログラマー。
+主にRubyやPHP、JavaScriptを使用。
+2009年楽天株式会社入社。
+Webサービス、社内情報システム、プライベートクラウドの開発、新規事業開発に従事。
+2013年からスクラムを取り入れた開発を始める。
+2019年7月より株式会社デンソーにて製造業でのソフトウェア開発を始める。
+社内だけでなく、コミュニティ活動にも参加している。
+主に、Ruby、スクラムやアジャイル開発関連の勉強会、イベントに参加。
 
 ## :computer: スキル
 
@@ -60,17 +79,6 @@ author_profile: true
 - TDD
 - Vim
 - Visual Studio Code
-
-## :muscle: 強み
-
-## :telescope: やったことはないが興味があるもの
-
-- AR/VR
-- IoT
-- k8s
-- AWS
-- GCP
-- 複業・副業
 
 ## :microphone: 登壇歴
 
