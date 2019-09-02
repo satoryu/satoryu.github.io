@@ -1,0 +1,13 @@
+main:
+  - title: About
+    url: /about/
+    description: 自己紹介のページ
+  - title: Presentations
+    url: /presentations/
+    description: これまで社外で講演した登壇履歴
+  - title: CV
+    url: /curriculum_vitae/
+    description: 職務経歴
+  - title: "Blog"
+    url: https://satoryu.hatenablog.com
+    description: 個人として書いているブログ（はてなブログ）
