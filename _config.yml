@@ -33,7 +33,6 @@ author:
   location: Tokyo, Japan
   email: satoryu.1981@gmail.com
   links:
-  links:
     - label: GitHub
       icon: fab fa-github-square
       url: https://github.com/satoryu
@@ -54,6 +53,16 @@ author:
 og_image: /assets/img/ogp.png
 twitter:
   username: satoryuofficial
+social:
+  type: Person
+  name: Tatsuya Sato
+  links:
+    - https://twitter.com/satoryuofficial
+    - https://www.facebook.com/satoryu
+    - https://www.linkedin.com/in/satoryu/
+    - https://www.instagram.com/satoryu/
+    - https://github.com/satoryu
+    - https://speakerdeck.com/satoryu
 
 analytics:
   provider: google-gtag
