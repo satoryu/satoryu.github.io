@@ -51,7 +51,7 @@ author:
       url: https://satoryu.hatenablog.com/
 
 # Social Sharing
-og_img: /assets/img/ogp.png
+og_image: /assets/img/ogp.png
 twitter:
   username: satoryuofficial
 
