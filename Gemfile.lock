@@ -258,6 +258,7 @@ DEPENDENCIES
   github-pages (~> 198)
   jekyll-feed
   jekyll-github-metadata
+  jekyll-include-cache
   jekyll-remote-theme
   jekyll-sitemap
   minimal-mistakes-jekyll
