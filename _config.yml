@@ -49,6 +49,10 @@ author:
       icon: fas fa-blog
       url: https://satoryu.hatenablog.com/
 
+search: true
+google:
+  search_engine_id: 014230504068243774542:crkzkwew2vw
+
 # Social Sharing
 og_image: /assets/img/ogp.png
 twitter:
