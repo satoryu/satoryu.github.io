@@ -69,7 +69,7 @@ plugins:
   - jekyll-sitemap
   - jemoji
 
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll
 remote_theme: mmistakes/made-mistakes-jekyll
 minimal_mistakes_skin: dirt
 
