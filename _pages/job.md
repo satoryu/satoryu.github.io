@@ -6,13 +6,11 @@ read_time: false
 header:
   og_image: /assets/img/ogp.png
   overlay_image: /assets/img/job_banner.png
-  overlay_filter: rgba(0, 0, 0, 0.6)
+  overlay_filter: rgba(35, 35, 35, 0.2)
   actions:
   - label: お問い合わせ
     url: "/jobs/#お問い合わせフォーム"
 ---
-
-これまでの開発経験を活かし、楽しい開発現場で困っていることを同じ目線でご支援します。
 
 ## 事業内容
 
