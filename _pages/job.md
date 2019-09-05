@@ -3,7 +3,6 @@ title: 仕事依頼
 layout: splash
 permalink: /jobs/
 read_time: false
-author_profile: true
 header:
   og_image: /assets/img/ogp.png
   overlay_image: /assets/img/job_banner.png

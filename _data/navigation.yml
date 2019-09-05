@@ -8,6 +8,9 @@ main:
   - title: CV
     url: /curriculum_vitae/
     description: 職務経歴
+  - title: Job
+    url: /jobs/
+    description: お仕事の依頼について
   - title: "Blog"
     url: https://satoryu.hatenablog.com
     description: 個人として書いているブログ（はてなブログ）
