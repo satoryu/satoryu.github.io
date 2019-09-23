@@ -5,6 +5,12 @@ read_time: false
 toc: true
 ---
 
+## [2019/09/21 XP祭り2019](http://xpjug.com/xp2019/)
+
+<script async class="speakerdeck-embed" data-id="c6e6743a83874131ab3d3e80a5e92d63" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+OSS Gateワークショップを通じて感じている「OSS開発初心者にありがちなこと」をまとめて、LTとして発表しました。
+
 ## [2019/02/22 Scrum Fest Osaka 2019](https://www.scrumosaka.org/)
 
 <script async class="speakerdeck-embed" data-id="94600e23e8554f4e9a410ce8102f9476" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
