@@ -6,7 +6,7 @@ read_time: false
 related: false
 ---
 
-# ようこそ
+## ようこそ
 
 このサイトは、佐藤竜也のサイトです。
 

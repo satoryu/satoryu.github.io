@@ -1,5 +1,5 @@
 ---
-title: 仕事依頼
+title: 仕事の依頼について
 layout: splash
 permalink: /jobs/
 read_time: false
