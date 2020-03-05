@@ -93,6 +93,10 @@ Webサービス、社内情報システム、プライベートクラウドの�
 - Vim
 - Visual Studio Code
 
+## :cherry_blossom: 資格
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="433d1bbf-e5d1-41e0-8bd1-a4e327118de1" data-share-badge-host="https://www.youracclaim.com"></div><script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+
 ## :trophy: 受賞歴
 
 ### Developers Summit 2018 ベストスピーカー賞 2 位
