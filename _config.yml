@@ -77,6 +77,7 @@ analytics:
 markdown: kramdown
 
 plugins:
+  - jekyll-archives
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-sitemap
@@ -97,7 +98,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: false
       share: true
       related: true
@@ -107,7 +108,24 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: false
       share: true
       related: true
+
+category_archives:
+  type: jekyll-archive
+  path: /categories/
+tag_archive:
+  type: jekyll-archive
+  path: /tags/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/

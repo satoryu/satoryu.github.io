@@ -1,6 +1,11 @@
 ---
 title: Agile PBL祭り2020に協賛します。
 categories: news
+tags:
+  - スポンサー
+excerpt: |
+  2020年2月21日に、DMM.comさん東京本社にて開催されるAgile PBL祭りに個人スポンサーとして協賛いたします。
+
 ---
 
 2020年2月21日に、DMM.comさん東京本社にて開催されるAgile PBL祭りに個人スポンサーとして協賛いたします。
