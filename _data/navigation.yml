@@ -12,5 +12,5 @@ main:
     url: /jobs/
     description: 個人事業主として仕事を依頼したい場合はこちらよりお問い合わせください。
   - title: ブログ
-    url: https://satoryu.hatenablog.com
-    description: 個人として書いているブログ（はてなブログ）
+    url: /blog/
+    description: 個人として書いているブログ
