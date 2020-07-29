@@ -47,7 +47,7 @@ author:
       url: https://www.facebook.com/satoryu
     - label: Blog
       icon: fas fa-blog
-      url: https://satoryu.hatenablog.com/
+      url: /blog/
 
 search: true
 google:
