@@ -5,6 +5,7 @@ excerpt: Railsに認証機能を提供するDeviceの認証の後処理を実装
 toc: true
 category: blog
 header:
+  teaser: https://raw.github.com/heartcombo/devise/master/devise.png
   og_image: https://raw.github.com/heartcombo/devise/master/devise.png
   overlay_image: https://raw.github.com/heartcombo/devise/master/devise.png
   overlay_filter: rgba(35, 35, 35, 0.5)
