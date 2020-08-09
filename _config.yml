@@ -77,7 +77,6 @@ analytics:
 markdown: kramdown
 
 plugins:
-  - jekyll-archives
   - jekyll-feed
   - jekyll-remote-theme
   - jekyll-sitemap
@@ -111,21 +110,11 @@ defaults:
       read_time: false
       comments: false
       share: true
-      related: true
+      elated: true
 
-category_archives:
-  type: jekyll-archive
+category_archive:
+  type: liquid
   path: /categories/
 tag_archive:
-  type: jekyll-archive
+  type: liquid
   path: /tags/
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layouts:
-    category: archive-taxonomy
-    tag: archive-taxonomy
-  permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
