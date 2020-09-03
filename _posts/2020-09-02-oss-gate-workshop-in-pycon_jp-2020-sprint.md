@@ -2,6 +2,7 @@
 title: PyCon JP 2020でOSS Gateワークショップを開催しました
 slug: oss-gate-workshop-in-pycon_jp-2020-sprint
 date: 2020-09-02
+toc: true
 header:
   teaser: /assets/img/2020-09-02-oss-gate-workshop-in-pycon_jp-2020-sprint.png
   og_image: /assets/img/2020-09-02-oss-gate-workshop-in-pycon_jp-2020-sprint.png
@@ -112,7 +113,7 @@ Discordのボイスチャネルは、音声のみだけでなく、画面共有�
 次回、OSS Gate WorkshopはOnline（Discord）で開催予定です。
 Discordのサーバーの招待は参加者にのみ通知されるので、Doorkeeperのイベントページより事前の申し込みをお願いします。
 
-[OSS Gate東京ワークショップ2020-09-12 - OSS Gate | Doorkeeper](https://oss-gate.doorkeeper.jp/events/109385)
+[OSS Gate東京ワークショップ2020-09-12 - OSS Gate \| Doorkeeper](https://oss-gate.doorkeeper.jp/events/109385)
 
 ## おわりに
 
