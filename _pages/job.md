@@ -9,7 +9,7 @@ header:
   overlay_filter: rgba(35, 35, 35, 0.2)
   actions:
     - label: お問い合わせ
-      url: "/jobs/#お問い合わせフォーム"
+      url: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAKY-Th9URUJBQjkyVDlNN01UVUFCRTZTNkw2Q0xPVy4u"
 ---
 
 {% capture notice-message %}
@@ -37,13 +37,13 @@ header:
 - OSS Gate の訪問開催
 - 講演
 
-上記以外についての依頼については、[下記問い合わせフォーム](#お問い合わせフォーム)の「お問い合わせ内容」に明記してください。
+上記以外についての依頼については、[問い合わせフォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAKY-Th9URUJBQjkyVDlNN01UVUFCRTZTNkw2Q0xPVy4u)の「お問い合わせ内容」に明記してください。
 
 ## ご契約まで
 
 ### 1. お問い合わせ
 
-[Twitter](https://twitter.com/satoryuofficial)、[Facebook メッセンジャー](https://www.messenger.com/t/satoryu)、[メール](mailto:satoryu.1981@gmail.com)、または[下記問い合わせフォーム](#お問い合わせフォーム)からお問い合わせください。
+[Twitter](https://twitter.com/satoryuofficial)、[Facebook メッセンジャー](https://www.messenger.com/t/satoryu)、[メール](mailto:satoryu.1981@gmail.com)、または[問い合わせフォーム](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAKY-Th9URUJBQjkyVDlNN01UVUFCRTZTNkw2Q0xPVy4u)からお問い合わせください。
 
 ### 2. 打ち合わせ
 
@@ -64,6 +64,5 @@ header:
 - 契約書、NDA
 - 報酬の金額および支払い方法の決定
 
-## お問い合わせフォーム
-
-<div style="width:100%;height:600px;overflow:auto;-webkit-overflow-scrolling:touch;"><iframe src="https://tayori.com/form/d444fee09a35b2cb3b733560b756310c4ee09508" width="100%" height="100%"></iframe></div>
+[お問い合わせはこちらから](https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAKY-Th9URUJBQjkyVDlNN01UVUFCRTZTNkw2Q0xPVy4u){: .btn .btn--success .btn--x-large}
+{: .text-center }
