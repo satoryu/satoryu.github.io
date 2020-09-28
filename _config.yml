@@ -110,7 +110,7 @@ defaults:
       read_time: false
       comments: false
       share: true
-      elated: true
+      related: false
 
 category_archive:
   type: liquid
