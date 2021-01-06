@@ -159,9 +159,8 @@ end
 
 `rails generator`コマンド実行時に`Rails::Configuration::Generators` に設定された内容を`Rails::Generators.options` に入れている。
 
-[https://github.com/rails/rails/blob/c0d91a4f9da10094ccdb80e34d1be42ce1016c9a/railties/lib/rails/commands/generate/generate_command.rb#L22:title]
-
-この`load_generators` は`Rails.application.load_generators`を呼んでいるだけのメソッドである。
+次に[`Generator`コマンドの実行時の実装](https://github.com/rails/rails/blob/c0d91a4f9da10094ccdb80e34d1be42ce1016c9a/railties/lib/rails/commands/generate/generate_command.rb#L22)を見てみる。
+この中の`load_generators` は`Rails.application.load_generators`を呼んでいるだけのメソッドである。
 `Rails.application.load_generators` の実体は`Rails::Engine#load_generators` で、この中で下記を実行している。
 
 ```ruby
