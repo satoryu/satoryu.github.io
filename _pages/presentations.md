@@ -7,7 +7,7 @@ toc: true
 
 ## [2021/01/06 Regional Scrum Gathering Tokyo 2021](https://2021.scrumgatheringtokyo.org/index.html)
 
-<script async class="speakerdeck-embed" data-id="5143042233234a8191612f21358f425e" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+<script async class="speakerdeck-embed" data-id="08201c13b246495686e088f990f74216" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 > 2016年夏、あるチームが解散となりました。そのチームのうち、社内に残ったエンジニアは一人。当時、彼は一人でプロジェクトをこなしていました。ステークホルダーから感謝されていたので一人で開発を続けていました。しかし、エンジニアとしての成長は殆どありませんでした。切っ掛けでとあるチームでエンジニアを募集していることを知りました。技術スタックもそれまでの事業領域も異なるところでやっていけるのだろうか？と彼は悩みました。そのチームにいるエンジニアと一緒に働きたいという想いからそのチームへ入ることにしました。それから3年あまりが経ちました。あの時の彼の決断は正しかった、と今の私なら言えます。
 >
