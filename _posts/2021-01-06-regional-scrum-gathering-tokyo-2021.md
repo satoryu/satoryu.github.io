@@ -1,6 +1,6 @@
 ---
 title: Regional Scrum Gathering Tokyo 2021で発表してきた。
-slug: more-effective-agile
+slug: regional-scrum-gathering-tokyo-2021
 date: 2021-01-06
 excerpt: Regional Scrum Gathering Tokyo 2021で発表してきました。
 header:
