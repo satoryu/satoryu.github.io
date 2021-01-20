@@ -1,9 +1,15 @@
 ---
-title: Home
-author_profile: true
-share: false
+layout: splash
+title: satoryu - Tatsuya Sato (佐藤 竜也)
+author_profile: false
+share: true
 read_time: false
 related: false
+classes:
+  - wide
+header:
+  image: /assets/img/top_banner.jpg
+  teaser: /assets/img/top_banner.jpg
 ---
 
 ## ようこそ
