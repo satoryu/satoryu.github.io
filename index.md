@@ -12,9 +12,23 @@ header:
   teaser: /assets/img/top_banner.jpg
 ---
 
-## ようこそ
+## About Tatsuya Sato
 
-このサイトは、佐藤竜也のサイトです。
+{% assign about_page = site.pages | find: "title", "自己紹介" | first %}
+{{ about_page.excerpt | markdownify }}
+
+[Read More...]({{ about_page.url }})
+{: .text-right }
+
+## Blogs
+
+{% for post in site.posts limit: 5 %}
+
+- [{{ post.date | date_to_string: "ordinal", "JP" }} - {{ post.title }}]({{ post.url }})
+
+{% endfor %}
+
+[Read More...]({% link _pages/blog.md %})
 
 ## コンテンツ
 
@@ -22,13 +36,5 @@ header:
 
 [{{ nav.title }}]({{ nav.url }})
 : {{ nav.description }}
-
-{% endfor %}
-
-## 更新履歴
-
-{% for post in site.posts limit: 5 %}
-
-- [{{ post.title }}]({{ post.url }}) ({{ post.date | date_to_string }})
 
 {% endfor %}
