@@ -32,7 +32,7 @@ author:
   bio: Passionate Programmer / Father for two kids / MOSH'SH MATE
   location: Tokyo, Japan
   email: satoryu.1981@gmail.com
-  links:
+  links: &social-links
     - label: GitHub
       icon: fab fa-github-square
       url: https://github.com/satoryu
@@ -48,6 +48,9 @@ author:
     - label: Blog
       icon: fas fa-blog
       url: /blog/
+
+footer:
+  links: *social-links
 
 search: true
 google:

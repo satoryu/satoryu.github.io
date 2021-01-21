@@ -1,28 +1,58 @@
 ---
-title: Home
-author_profile: true
-share: false
+layout: splash
+title: satoryu - Tatsuya Sato (佐藤 竜也)
+author_profile: false
+share: true
 read_time: false
 related: false
+classes:
+  - wide
+header:
+  image: /assets/img/top_banner.jpg
+  teaser: /assets/img/top_banner.jpg
 ---
 
-## ようこそ
+## About Tatsuya Sato
 
-このサイトは、佐藤竜也のサイトです。
+{% assign about_page = site.pages | find: "title", "自己紹介" | first %}
+{{ about_page.excerpt | markdownify }}
 
-## コンテンツ
+[Read More...]({{ about_page.url }})
+{: .text-right }
 
-{% for nav in site.data.navigation.main %}
-
-[{{ nav.title }}]({{ nav.url }})
-: {{ nav.description }}
-
-{% endfor %}
-
-## 更新履歴
+## Blogs
 
 {% for post in site.posts limit: 5 %}
 
-- [{{ post.title }}]({{ post.url }}) ({{ post.date | date_to_string }})
+- [{{ post.date | date: '%Y/%m/%d' }} - {{ post.title }}]({{ post.url }})
 
 {% endfor %}
+
+[Read More...]({% link _pages/blog.md %})
+{: .text-right }
+
+## Business
+
+![job banner](/assets/img/job_banner.png){: .full}
+
+企業に勤める傍らで、個人事業主としてもソフトウェア開発の仕事をしています。
+自分自身の挑戦のため、これまでの開発の経験を活かして出来るこことに限らず、これまでやったことが無いことを含めて取り組んでいます。
+
+[Read More...]({% link _pages/business.md %})
+{: .text-right }
+
+### News
+
+個人での仕事に関する情報はこちらをご覧ください。
+
+{% for post in site.categories.news limit: 5 %}
+- [{{ post.date | date: '%Y/%m/%d' }} - {{ post.title }}]({{ post.url }})
+{% endfor %}
+
+## お問い合わせ
+
+お問い合わせは下記のフォームからお願いいたします。
+{: .text-center}
+
+[お問い合わせフォーム](https://form.run/@satoryu--1611193271){: .btn .btn--success .btn--x-large}
+{: .text-center}
