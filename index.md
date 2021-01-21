@@ -24,17 +24,35 @@ header:
 
 {% for post in site.posts limit: 5 %}
 
-- [{{ post.date | date_to_string: "ordinal", "JP" }} - {{ post.title }}]({{ post.url }})
+- [{{ post.date | date: '%Y/%m/%d' }} - {{ post.title }}]({{ post.url }})
 
 {% endfor %}
 
 [Read More...]({% link _pages/blog.md %})
+{: .text-right }
 
-## コンテンツ
+## Business
 
-{% for nav in site.data.navigation.main %}
+![job banner](/assets/img/job_banner.png){: .full}
 
-[{{ nav.title }}]({{ nav.url }})
-: {{ nav.description }}
+企業に勤める傍らで、個人事業主としてもソフトウェア開発の仕事をしています。
+自分自身の挑戦のため、これまでの開発の経験を活かして出来るこことに限らず、これまでやったことが無いことを含めて取り組んでいます。
 
+[Read More...]({% link _pages/business.md %})
+{: .text-right }
+
+### News
+
+個人での仕事に関する情報はこちらをご覧ください。
+
+{% for post in site.categories.news limit: 5 %}
+- [{{ post.date | date: '%Y/%m/%d' }} - {{ post.title }}]({{ post.url }})
 {% endfor %}
+
+## お問い合わせ
+
+お問い合わせは下記のフォームからお願いいたします。
+{: .text-center}
+
+[お問い合わせフォーム](https://form.run/@satoryu--1611193271){: .btn .btn--success .btn--x-large}
+{: .text-center}
