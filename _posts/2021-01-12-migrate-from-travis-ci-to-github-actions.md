@@ -1,5 +1,5 @@
 ---
-title: 管理しているTravis CIからGitHub Actionsへ移行することにした
+title: 管理しているOSSをTravis CIからGitHub Actionsへ移行することにした
 slug: migrate-from-travis-ci-to-github-actions
 date: 2021-01-12
 excerpt: Travis CIのプラットフォーム移行により、価格体系が変わる。OSSのリポジトリに対しては継続して無料ではあるが、使用に制限が入る。ということで、GitHub Actionsに適宜移行していく。
