@@ -7,12 +7,18 @@ toc: true
 
 ## [2021/01/06 Regional Scrum Gathering Tokyo 2021](https://2021.scrumgatheringtokyo.org/index.html)
 
+### スライド
+
 <script async class="speakerdeck-embed" data-id="08201c13b246495686e088f990f74216" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 > 2016年夏、あるチームが解散となりました。そのチームのうち、社内に残ったエンジニアは一人。当時、彼は一人でプロジェクトをこなしていました。ステークホルダーから感謝されていたので一人で開発を続けていました。しかし、エンジニアとしての成長は殆どありませんでした。切っ掛けでとあるチームでエンジニアを募集していることを知りました。技術スタックもそれまでの事業領域も異なるところでやっていけるのだろうか？と彼は悩みました。そのチームにいるエンジニアと一緒に働きたいという想いからそのチームへ入ることにしました。それから3年あまりが経ちました。あの時の彼の決断は正しかった、と今の私なら言えます。
 >
 > このセッションは、RSGT2020で発表された「[Team-Based TEAM - 会社を越えるチーム](https://speakerdeck.com/takaking22/team-based-team)」に対するアンサーセッションです。RSGT2020当日に初めてこのセッションの内容を知りました。それでも「あぁ、わかる。これは自分たちだ。」と思える内容でした。このセッションでは、Team-basedチームの一員として得られたものが何かについてお話します。
 > - [概要](https://confengine.com/regional-scrum-gathering-tokyo-2021/proposal/15017)
+
+### 講演映像
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rmaHCXoJtDE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## [2019/09/21 XP祭り2019](http://xpjug.com/xp2019/)
 
