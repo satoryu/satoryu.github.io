@@ -21,7 +21,7 @@ toc: true
 
 出来上がったものをGitHubで公開しているので、お時間が無い方はこちらをどうぞ。
 
-[https://github.com/satoryu/my-vuejsapp:embed:cite]
+{% linkpreview "https://github.com/satoryu/my-vuejsapp" %}
 
 ## リポジトリを作る
 
