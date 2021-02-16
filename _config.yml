@@ -85,6 +85,8 @@ plugins:
   - jekyll-sitemap
   - jemoji
   - jekyll-include-cache
+  - jekyll/tagging
+  - jekyll-tagging-related_posts
 
 # theme: minimal-mistakes-jekyll
 remote_theme: mmistakes/minimal-mistakes

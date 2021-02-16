@@ -150,6 +150,11 @@ GEM
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-swiss (1.0.0)
+    jekyll-tagging (1.1.0)
+      nuggets
+    jekyll-tagging-related_posts (1.1.0)
+      jekyll (>= 3.5, < 5.0)
+      jekyll-tagging (~> 1.0)
     jekyll-theme-architect (0.1.1)
       jekyll (~> 3.5)
       jekyll-seo-tag (~> 2.0)
@@ -224,6 +229,7 @@ GEM
     nokogiri (1.11.1)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
+    nuggets (1.6.0)
     octokit (4.20.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
@@ -274,6 +280,7 @@ DEPENDENCIES
   jekyll-include-cache
   jekyll-remote-theme
   jekyll-sitemap
+  jekyll-tagging-related_posts
   minimal-mistakes-jekyll
 
 BUNDLED WITH
