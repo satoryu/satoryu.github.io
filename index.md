@@ -12,7 +12,7 @@ header:
   teaser: /assets/img/top_banner.jpg
 ---
 
-## About Tatsuya Sato
+## :man: About Tatsuya Sato
 
 {% assign about_page = site.pages | find: "title", "自己紹介" | first %}
 {{ about_page.excerpt | markdownify }}
@@ -20,7 +20,7 @@ header:
 [Read More...]({{ about_page.url }})
 {: .text-right }
 
-## Blogs
+## :pencil: Blogs
 
 {% for post in site.posts limit: 5 %}
 
@@ -31,7 +31,7 @@ header:
 [Read More...]({% link _pages/blog.md %})
 {: .text-right }
 
-## Business
+## :briefcase: Business
 
 ![job banner](/assets/img/job_banner.png){: .full}
 
@@ -41,7 +41,7 @@ header:
 [Read More...]({% link _pages/business.md %})
 {: .text-right }
 
-### News
+### :newspaper: News
 
 個人での仕事に関する情報はこちらをご覧ください。
 
@@ -49,7 +49,7 @@ header:
 - [{{ post.date | date: '%Y/%m/%d' }} - {{ post.title }}]({{ post.url }})
 {% endfor %}
 
-## お問い合わせ
+## :postbox: お問い合わせ
 
 お問い合わせは下記のフォームからお願いいたします。
 {: .text-center}
