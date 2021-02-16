@@ -20,9 +20,10 @@ gem 'minimal-mistakes-jekyll'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem 'jekyll-include-cache'
   gem "jekyll-github-metadata"
   gem "jekyll-feed"
+  gem 'jekyll-include-cache'
+  gem 'jekyll-linkpreview'
   gem "jekyll-remote-theme"
   gem "jekyll-sitemap"
   gem "jekyll-tagging-related_posts"

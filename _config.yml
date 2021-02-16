@@ -85,6 +85,7 @@ plugins:
   - jekyll-sitemap
   - jemoji
   - jekyll-include-cache
+  - jekyll-linkpreview
   - jekyll/tagging
   - jekyll-tagging-related_posts
 
