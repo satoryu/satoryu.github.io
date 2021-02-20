@@ -13,6 +13,7 @@ tags:
   - アジャイル
   - スクラム
   - チーム
+  - イベントレポート
 ---
 
 日本で年に一度のスクラムの祭典であるRegional Scrum Gathering Tokyo2021で、発表してきました。
@@ -28,6 +29,10 @@ tags:
 プロポーザルはこちらです。
 
 - [Regional Scrum Gathering Tokyo 2021 - なぜ私はチームにい続けるのか。あるいは、エンジニアとしての成長のためのチームの活用について。 - ConfEngine - Conference Platform](https://confengine.com/regional-scrum-gathering-tokyo-2021/proposal/15017)
+
+### 2021-02-20追記: 動画が公開されました
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rmaHCXoJtDE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 何でこの話をしたのか
 
