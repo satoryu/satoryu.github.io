@@ -5,6 +5,16 @@ read_time: false
 toc: true
 ---
 
+## [2021/06/26 Scrum Fest Osaka 2021](https://www.scrumosaka.org/)
+
+### 講演資料
+
+<script async class="speakerdeck-embed" data-id="357be325bafe4bd682ee6ca615b50b83" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
+### プロポーザル
+
+- [Scrum Fest Osaka 2021 - あなたの一歩を後押しした本やあなたの手掛けた本について話してほしい！「旅するAgile本箱」LT #2021 - ConfEngine - Conference Platform](https://confengine.com/conferences/scrum-fest-osaka-2021/proposal/15351/agilelt-2021)
+
 ## [2021/01/06 Regional Scrum Gathering Tokyo 2021](https://2021.scrumgatheringtokyo.org/index.html)
 
 ### 講演資料
