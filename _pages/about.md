@@ -18,6 +18,8 @@ permalink: /about/
 
 佐藤　竜也（さとう　たつや）
 
+[![2021年度 Ruby Association Supporters](/assets/img/web_large_2021.png)](https://www.ruby.or.jp/ja/sponsors/donation/donor/2021)
+
 ### 生年
 
 1981年7月29日
