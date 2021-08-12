@@ -1,6 +1,5 @@
 ---
 title: ActiveAdminのコントローラーのbefore_actionを変更する
-slug: basic-of-programming
 excerpt: |
   ActiveAdminが各リソースのために生成するコントローラーのbefore_actionを追加、無効したい場合について
 header:
