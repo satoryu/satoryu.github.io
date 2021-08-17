@@ -1,7 +1,13 @@
 ---
 title: 登壇歴
 permalink: /presentations/
-read_time: false
+excerpt:  これまでに勉強会やカンファレンスで実施してきたLTや講演のスライドなど
+header:
+  teaser: /assets/img/teemu-paananen-bzdhc5b3Bxs-unsplash.jpeg
+  overlay_image: /assets/img/teemu-paananen-bzdhc5b3Bxs-unsplash.jpeg
+  overlay_filter: 0.5
+  caption: Photo by <a href="https://unsplash.com/@xteemu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Teemu Paananen</a> on <a href="https://unsplash.com/s/photos/keynote?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
 toc: true
 ---
 
