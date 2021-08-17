@@ -58,10 +58,11 @@ EOLを迎えるシステム上で稼働しているサービスのリプレイ�
   - AWS Cloud Front
   - AWS EC2
   - AWS Elastic Beanstalk
-  - Amazon Auroｒa
+  - Amazon Aurora
   - Amazon S3
   - Trivy
   - AWS Fargate
+  - AWS Lambda
   - Terraform
   - アジャイル開発
   - モブプログラミング
