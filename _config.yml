@@ -23,7 +23,7 @@ google_analytics: UA-10079057-16
 repository: satoryu/satoryu.github.io
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.satoryu.com/" # the base hostname & protocol for your site
+url: "https://www.satoryu.com" # the base hostname & protocol for your site
 
 ## For SEO tags plugin
 author:
