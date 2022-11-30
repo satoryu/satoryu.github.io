@@ -25,7 +25,7 @@ jobs:
     needs: build
 
     permissions:
-      page: write
+      pages: write
       id-token: write
 
     runs-on: ubuntu-latest
