@@ -1,0 +1,54 @@
+div.linkpreview {
+  padding: 0.5rem;
+  border-color: lightgray;
+  border-style: solid;
+  border-width: 1px;
+  margin: 0.5rem auto;
+  max-height: 200px;
+}
+
+div.linkpreview .inner-wrapper {
+  position: relative;
+}
+
+div.linkpreview .preview-thumb {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 128px;
+  height: 128px;
+  min-height: 128px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip: padding-box;
+}
+
+div.linkpreview .preview-body {
+  margin-right: 130px;
+  height: 180px;
+  overflow: hidden;
+}
+
+div.linkpreview .preview-body .preview-title {
+  margin-block-start: unset;
+}
+
+div.linkpreview .preview-body .preview-content {
+  font-size: 12px;
+}
+
+
+form#inquiry-form label {
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+  background-color: lightgrey;
+}
+
+form#inquiry-form input,
+form#inquiry-form textarea {
+  border-radius: 0.2rem;
+  border-style: solid;
+  border-color: lightgrey;
+  border-width: 1px;
+}

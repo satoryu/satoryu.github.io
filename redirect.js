@@ -1,1 +1,0 @@
-window.location.href = 'https://www.satoryu.com' + window.location.pathname
