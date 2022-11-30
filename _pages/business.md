@@ -8,7 +8,7 @@ header:
   overlay_filter: rgba(35, 35, 35, 0.2)
   actions:
     - label: お問い合わせ
-      url: "/business/#お問い合わせフォーム"
+      url: "/business/#お問い合わせ先"
 toc: true
 classes:
   - wide
@@ -104,6 +104,6 @@ classes:
 - 契約書、NDA
 - 報酬の金額および支払い方法の決定
 
-## お問い合わせフォーム
+## お問い合わせ先
 
 {% include inquiry_form.html %}
