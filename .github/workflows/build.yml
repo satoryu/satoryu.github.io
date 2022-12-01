@@ -20,6 +20,7 @@ jobs:
       - uses: actions/upload-pages-artifact@v1
 
   deploy:
+    if: github.event_name == 'push'
     needs: build
 
     permissions:
