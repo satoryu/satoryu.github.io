@@ -21,12 +21,15 @@ jobs:
 
   deploy:
     if: github.event_name == 'push'
-
     needs: build
 
     permissions:
       pages: write
       id-token: write
+
+    environment:
+      name: github-pages
+      url: https://www.satoryu.com
 
     runs-on: ubuntu-latest
 
