@@ -19,8 +19,8 @@ name: Tatsuya Sato
 description: Website about Tatsuya Sato
 email: satoryu.1981@gmail.com
 logo: assets/img/logo.png
-google_analytics: UA-10079057-16
-repository: satoryu/satoryu.com
+google_analytics: G-P6RYL7T817
+repository: satoryu/satoryu.github.io
 timezone: Asia/Tokyo
 
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -75,7 +75,7 @@ social:
 analytics:
   provider: google-gtag
   google:
-    tracking_id: UA-10079057-16
+    tracking_id: G-P6RYL7T817
 
 # Build settings
 markdown: kramdown

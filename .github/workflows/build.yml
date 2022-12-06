@@ -17,6 +17,8 @@ jobs:
           ruby-version: '3.1'
       - run: bundle install
       - run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
       - uses: actions/upload-pages-artifact@v1
 
   deploy:
