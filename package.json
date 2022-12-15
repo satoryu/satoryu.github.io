@@ -20,6 +20,7 @@
   "homepage": "https://github.com/satoryu/satoryu.github.io#readme",
   "dependencies": {
     "textlint": "^12.2.4",
+    "textlint-rule-max-ten": "^4.0.3",
     "textlint-rule-no-dropping-the-ra": "^3.0.0"
   }
 }
