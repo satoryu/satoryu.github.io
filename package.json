@@ -1,0 +1,25 @@
+{
+  "name": "satoryu.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "private": "true",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satoryu/satoryu.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/satoryu/satoryu.github.io/issues"
+  },
+  "homepage": "https://github.com/satoryu/satoryu.github.io#readme",
+  "dependencies": {
+    "textlint": "^12.2.4",
+    "textlint-rule-no-dropping-the-ra": "^3.0.0"
+  }
+}

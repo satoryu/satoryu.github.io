@@ -5,3 +5,5 @@ _site
 
 _cache/*
 !_cache/.keep
+
+node_modules/
