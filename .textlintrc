@@ -1,6 +1,7 @@
 {
   "filters": {},
   "rules": {
+    "@textlint-ja/textlint-rule-no-insert-dropping-sa": true,
     "max-ten": true,
     "no-double-negative-ja": true,
     "no-doubled-conjunctive-particle-ga": true,
