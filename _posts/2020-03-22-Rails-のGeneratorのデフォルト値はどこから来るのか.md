@@ -8,7 +8,7 @@ toc: true
 
 ## ことの発端
 
-Rails のController generator で不要なrouting が書き込まれてしまうので、毎度`--skip-routes` オプションを付けるようにしている。
+RailsのController generatorで不要なroutingが書き込まれてしまうので、毎度`--skip-routes` オプションを付けるようにしている。
 けれど、オプションを付け忘れることもあって、面倒なことになることがよくあった。
 調べてみると、 `config/application.rb` などで`config.generators` を以下のように指定することでデフォルトのオプションとして指定できることがわかった。
 
@@ -24,7 +24,7 @@ end
 
 ## TL;DR
 
-controller generator にオプションの渡し方は、以下の3通り。
+controller generatorにオプションの渡し方は、以下の3通り。
 
 1. `config.generators.controller = { skip_routes: true }`
 2. `config.generators.rails = { skip_routes: true }`

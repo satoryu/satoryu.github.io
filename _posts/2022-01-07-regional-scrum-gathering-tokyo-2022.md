@@ -64,7 +64,7 @@ tags:
 予め決まっていた会話ではないはず。
 こういうセレンディピティのようなものが、オンサイトの醍醐味のひとつということを改めて実感しました。
 
-昨年のスクフェス札幌でのスライド作成のときに思い出していた光景を再び見れたのは嬉しかった。
+昨年のスクフェス札幌でのスライド作成のときに思い出していた光景を再び見られたのは嬉しかった。
 
 <iframe class="speakerdeck-iframe" frameborder="0" src="https://speakerdeck.com/player/46568e5408214ef9be4cd4269c8d7a56" title="ふらっと立ち寄れる廊下のある風景 - フラットでオープンネスがもたらす魅力 / The Corridor" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="border: 0px; background: padding-box padding-box rgba(0, 0, 0, 0.1); margin: 0px; padding: 0px; border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px; width: 560px; height: 420px;" data-ratio="1.3333333333333333"></iframe>
 

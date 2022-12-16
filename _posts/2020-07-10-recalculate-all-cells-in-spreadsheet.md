@@ -11,7 +11,7 @@ tags:
 
 ![Google SpreadSheets](/assets/img/20200709/google_spread_sheets.png)
 
-Google Spreadsheet をAPIからコピーしたりした後など、数式の参照や計算が反映されていないことがおこりえる。
+Google SpreadsheetをAPIからコピーしたりした後など、数式の参照や計算が反映されていないことがおこりえる。
 こういった時に、該当のセルの数式を再評価する必要がある。
 最も手軽でてっとり早いやり方は、手動でセルの計算式を再評価させる方法だ。
 ブラウザでスプレッドシートを開き、セルを選択し、Enterキーを押すと式が再評価される。
@@ -43,7 +43,7 @@ values = sheets.get_spreadsheet_values(sheet_id, "#{worksheet_title}!$A$1:$YY", 
 sheets. sheets.update_spreadsheet_value(sheet_id, values.range, values, value_input_option: 'USER_ENTERED')
 ```
 
-ここで`$A$1::$YY`を指定しているのは、シート全体を選択するためである。
+ここで`$A$1::$YY`を指定しているのは、シート全体を選択するためです。
 もし該当のセルの範囲がわかるようであれば、その範囲を指定すれば良い。
 
 ということで、値を数式として入れ直すというAPIとしてはコストかかりそうなリクエストなのだけれど、これでシートの数式をいっきに更新できます。
