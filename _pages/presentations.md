@@ -92,7 +92,7 @@ OSS Gateワークショップを通じて感じている「OSS開発初心者に
 
 <script async class="speakerdeck-embed" data-id="7bae20a318ad481b891fdf4db3b17a7c" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
-新規事業として始めた学習時間記録サービスの開発  の中で、PoC やサービスインなどサービスに求められる変化に応じて、どのようにシステム構成や利用した Azure のサービスが変わっていったのかについて講演しました。
+新規事業として始めた学習時間記録サービスの開発  の中で、PoCやサービスインなどサービスに求められる変化に応じて、どのようにシステム構成や利用したAzureのサービスが変わっていったのかについて講演しました。
 講演でどのように話をしたのかは、ログミーさんに書き起こしていただきました。
 
 - [PoC からプロダクションまで　 Azure が支えた PHP アプリケーション開発の舞台裏 - ログミー Tech](https://logmi.jp/tech/articles/319412)
@@ -108,13 +108,13 @@ OSS Gateワークショップを通じて感じている「OSS開発初心者に
 
 <script async class="speakerdeck-embed" data-id="2434ec4e8dce41cfbe29cf757ec79bac" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
-当時まだ出たばかりの Azure Cosmos DB を利用するために検証していた中で発見した問題について、LT をしました。
+当時まだ出たばかりのAzure Cosmos DBを利用するために検証していた中で発見した問題について、LTをしました。
 
 ## [2016/10/07 社内勉強会を続けるコツ - DevLOVE 関西](https://devlove-kansai.doorkeeper.jp/events/51876)
 
 <script async class="speakerdeck-embed" data-id="3470ae6f32d6411e9e20e16121e5fa76" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
-当時運営していた Tech Talk という社内勉強会で得られたノウハウについて話をしました。
+当時運営していたTech Talkという社内勉強会で得られたノウハウについて話をしました。
 
 ## [2015/02/20 Developers Summit 2015 「じつは私、情シスでした。」- 業務の変化を前提としたアジリティの高い情シスチームの 2 年間](https://event.shoeisha.jp/devsumi/20150219/session/678/)
 

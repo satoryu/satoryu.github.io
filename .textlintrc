@@ -3,6 +3,7 @@
   "rules": {
     "no-dropping-the-ra": true,
     "textlint-rule-max-ten": true,
-    "no-mix-dearu-desumasu": true
+    "no-mix-dearu-desumasu": true,
+    "preset-ja-spacing": true
   }
 }

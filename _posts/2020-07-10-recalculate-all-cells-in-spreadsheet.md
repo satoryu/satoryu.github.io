@@ -11,7 +11,7 @@ tags:
 
 ![Google SpreadSheets](/assets/img/20200709/google_spread_sheets.png)
 
-Google Spreadsheet をAPIからコピーしたりした後など、数式の参照や計算が反映されていないことがおこりえる。
+Google SpreadsheetをAPIからコピーしたりした後など、数式の参照や計算が反映されていないことがおこりえる。
 こういった時に、該当のセルの数式を再評価する必要がある。
 最も手軽でてっとり早いやり方は、手動でセルの計算式を再評価させる方法だ。
 ブラウザでスプレッドシートを開き、セルを選択し、Enterキーを押すと式が再評価される。
