@@ -43,7 +43,7 @@ values = sheets.get_spreadsheet_values(sheet_id, "#{worksheet_title}!$A$1:$YY", 
 sheets. sheets.update_spreadsheet_value(sheet_id, values.range, values, value_input_option: 'USER_ENTERED')
 ```
 
-ここで`$A$1::$YY`を指定しているのは、シート全体を選択するためである。
+ここで`$A$1::$YY`を指定しているのは、シート全体を選択するためです。
 もし該当のセルの範囲がわかるようであれば、その範囲を指定すれば良い。
 
 ということで、値を数式として入れ直すというAPIとしてはコストかかりそうなリクエストなのだけれど、これでシートの数式をいっきに更新できます。

@@ -223,7 +223,7 @@ index d213a77..64700a1 100644
 </html>
 ```
 
-ここで重要なのは、`div#app`である。
+ここで重要なのは、`div#app`です。
 `html-webpack-plugin`は、生成された成果物を読み込むためのscriptタグを`#app`直後に挿入する。
 ここでビルドを実行すると、distディレクトリに下記のような`index.html`ファイルが生成される。
 
@@ -298,7 +298,7 @@ new Vue({
 
 ### 単一ファイルコンポーネントを使えるようにする。
 
-`new Vue({...})` でコンポーネントを定義できるのですが、開発するアプリケーションが大きくなると、不便な点が出てきます。
+`new Vue({...})` でコンポーネントを定義できるのすが、開発するアプリケーションが大きくなると、不便な点が出てきます。
 そこで、[単一ファイルコンポーネント](https://jp.vuejs.org/v2/guide/single-file-components.html)を扱えるようにし、`.vue`ファイルにコンポーネントの定義を分割していきます。
 
 Webpackで単一ファイルコンポーネントを扱えるようにするには、[`vue-loader`](https://github.com/vuejs/vue-loader)と[`vue-template-compiler`](https://github.com/vuejs/vue/tree/dev/packages/vue-template-compiler)を使う。
@@ -395,7 +395,7 @@ index 0e8da1a..7dab791 100644
 
 ここでは、Webpackを用いてVue.jsのアプリをビルドするための環境の設定手順を紹介した。
 CSSフレームワークやフォントなどを扱うためには、この手順に加えて、いくつかnpmパッケージのインストールと設定の変更が必要になる。
-また、[Vue CLI](https://cli.vuejs.org/)というものがあり、これを使ってプロジェクトのディレクトリを生成することができる。おそらく、Vue CLIの方がより簡単に構築ができそうである。
+また、[Vue CLI](https://cli.vuejs.org/)というものがあり、これを使ってプロジェクトのディレクトリを生成することができる。おそらく、Vue CLIの方がより簡単に構築ができそうです。
 
 そして、本を一冊買ったのに積読なのを思い出した。
 
