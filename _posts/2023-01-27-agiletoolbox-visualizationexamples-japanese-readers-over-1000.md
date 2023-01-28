@@ -12,7 +12,7 @@ tags:
   - 電子書籍
   - 翻訳本
   - アジャイルコーチの道具箱
-  - 見えうる化実例集
+  - 見える化実例集
 ---
 
 2016年4月に発売された電子書籍「[アジャイルコーチの道具箱 - 見える化実例集](https://leanpub.com/agiletoolbox-visualizationexamples-japanese)」の読者が、先日1,000名を超えました :tada:
