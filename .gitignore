@@ -7,3 +7,5 @@ _cache/*
 !_cache/.keep
 
 node_modules/
+
+.ruby-version
