@@ -13,9 +13,23 @@ toc: true
 
 ## 2022/7 ～ 株式会社ホロラボ
 
+### 2022/11 〜 : 建設業でのBIMデータを用いたBIツールとの連携のPoC開発
+
+建物の施工情報を持つBIMデータに含まれる情報を活用するため、BIMデータとBIツールとを連携させる仕組みをPoCとして開発。
+
+- 技術要素
+  - Autodesk Platform Services
+  - Power BI
+  - Azure SQL Database
+  - Azure Container Instance
+  - Azure Container Registry
+  - Azure Web Apps
+  - SQLite
+  - Ruby on Rails
+
 ## 2019/07 ～ 2022/6 株式会社デンソー
 
-### 2021/5/1 〜 現在 : 未来都市開発プロジェクト
+### 2021/5/1 〜 2022/06 : 未来都市開発プロジェクト
 
 - 概要
   - 開発体制づくり
