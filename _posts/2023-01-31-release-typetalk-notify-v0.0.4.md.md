@@ -9,6 +9,7 @@ tags:
   - TypeTalk
   - typetalk-notify
   - ヌーラボ
+  - リリースノート
 ---
 
 タイトルにある通りではありますが、[TypeTalk](https://typetalk.com/)のトピックへGitHub Actionsからメッセージを送るためのアクション[typetalk-notify](https://github.com/satoryu/typetalk-notify)の最新版をリリースしました。

@@ -14,6 +14,7 @@ tags:
   - Scrapbox
   - Chrome拡張
   - リリースノート
+  - Copy for Scrapbox
 ---
 
 現在開いているタブへのリンクをScrapbox記法で生成し、クリップボードにコピーするChrome拡張の新しいバージョンv1.3.0をリリースしました。
