@@ -18,7 +18,11 @@ header:
 {% assign about_page = site.pages | where: "title", "自己紹介" | first %}
 {{ about_page.excerpt | markdownify }}
 
-[Read More...]({{ about_page.url }})
+[詳しい自己紹介はこちら]({{ about_page.url }})
+{: .text-right }
+[職務経歴はこちら](/curriculum_vitae)
+{: .text-right }
+[仕事のご依頼はこちらから](/business)
 {: .text-right }
 
 ## :pencil: Blogs
@@ -49,7 +53,7 @@ header:
 {% for post in site.categories.news limit: 5 %}
 
 - [{{ post.date | date: '%Y/%m/%d' }} - {{ post.title }}]({{ post.url }})
-{% endfor %}
+  {% endfor %}
 
 ## :postbox: お問い合わせ
 
