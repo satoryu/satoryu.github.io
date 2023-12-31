@@ -24,6 +24,9 @@ toc: true
   - Azure Container Instance
   - Azure Container Registry
   - Azure Web Apps
+  - Azure OpenAI Service
+  - OpenAI API
+  - LangChain
   - SQLite
   - Ruby on Rails
 
