@@ -73,7 +73,7 @@ social:
     - https://speakerdeck.com/satoryu
 
 analytics:
-  provider: "google-gtag"
+  provider: custom
   google:
     tracking_id: G-P6RYL7T817
 
