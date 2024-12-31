@@ -19,6 +19,10 @@ toc: true
 
 <script async class="docswell-embed" src="https://www.docswell.com/assets/libs/docswell-embed/docswell-embed.min.js" data-src="https://www.docswell.com/slide/5382V1/embed" data-aspect="0.5625"></script><div class="docswell-link"><a href="https://www.docswell.com/s/HoloLab/5382V1-holoconf24_a6">仕事できるくん：文書とBIMに関連する大変な作業をChatGPTにやらせてみるとみんな仕事ができるようになる！？ by @HoloLab</a></div>
 
+### 動画
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mO9aQP6YhWM?si=8scLWycZtfzayPQh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## [2022/11/04 Scrum Fest Sapporo 2022](https://www.scrumfestsapporo.org/)
 
 ### 講演資料
