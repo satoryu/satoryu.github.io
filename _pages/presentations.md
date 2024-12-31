@@ -1,7 +1,7 @@
 ---
-title: 登壇歴
+title: 講演資料
 permalink: /presentations/
-excerpt:  これまでに勉強会やカンファレンスで実施してきたLTや講演のスライドなど
+excerpt:  これまでに勉強会やカンファレンスで発表したLTや講演のスライドを掲載
 header:
   teaser: /assets/img/teemu-paananen-bzdhc5b3Bxs-unsplash.jpeg
   overlay_image: /assets/img/teemu-paananen-bzdhc5b3Bxs-unsplash.jpeg
@@ -10,6 +10,14 @@ header:
 
 toc: true
 ---
+
+## [2024/4/18 ホロラボカンファレンス2024](https://hololab.connpass.com/event/311388/)
+
+### 講演資料
+
+仕事できるくん：文書とBIMに関連する大変な作業をChatGPTにやらせてみるとみんな仕事ができるようになる！？
+
+<script async class="docswell-embed" src="https://www.docswell.com/assets/libs/docswell-embed/docswell-embed.min.js" data-src="https://www.docswell.com/slide/5382V1/embed" data-aspect="0.5625"></script><div class="docswell-link"><a href="https://www.docswell.com/s/HoloLab/5382V1-holoconf24_a6">仕事できるくん：文書とBIMに関連する大変な作業をChatGPTにやらせてみるとみんな仕事ができるようになる！？ by @HoloLab</a></div>
 
 ## [2022/11/04 Scrum Fest Sapporo 2022](https://www.scrumfestsapporo.org/)
 
