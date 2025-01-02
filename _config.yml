@@ -82,6 +82,7 @@ markdown: kramdown
 
 plugins:
   - jekyll-feed
+  - jekyll-gfm-admonitions
   - jekyll-include-cache
   - jekyll-linkpreview
   - jekyll-remote-theme

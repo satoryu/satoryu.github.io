@@ -21,6 +21,7 @@ gem 'minimal-mistakes-jekyll'
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed"
+  gem "jekyll-gfm-admonitions"
   gem "jekyll-github-metadata"
   gem 'jekyll-include-cache'
   gem 'jekyll-linkpreview'
