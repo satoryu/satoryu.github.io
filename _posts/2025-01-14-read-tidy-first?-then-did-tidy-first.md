@@ -15,7 +15,7 @@ tags:
 
 [![表紙](https://m.media-amazon.com/images/I/81HY3rbdOBL._SY425_.jpg)](https://amzn.to/3BXFnAu)
 
-[Tidy First?](https://amzn.to/3BXFnAu) は、Kent Beck が書いたソフトウェア設計に関する本です。
+[Tidy First?](https://amzn.to/3BXFnAu) は、Kent Beckが書いたソフトウェア設計に関する本です。
 訳者あとがきを含めても128ページと薄い本で、各章も短く、読みやすい内容でした。
 特定の言語やフレームワークに依存しない内容で、本書で扱われているコードもシンプルな疑似言語[^1]で書かれています。
 ですので、少しでもプログラミングを経験したことがある人であれば、読みやすい内容だと思います。
