@@ -50,7 +50,7 @@ classes:
 - 新人エンジニアのためのコードレビュー、実装支援
 - スタートアップでのRuby on Railsのサーバーサイド開発
 
-### Chrome拡張機能の開発
+### :robot: Chrome拡張機能の開発
 
 Webブラウザ拡張機能の開発を行っています。
 標準技術であるWebExtensionsを使った拡張機能の開発が可能ですので、Chromeに限らず、Firefox、Edgeなどのブラウザにも対応可能です。
@@ -99,6 +99,6 @@ NPO法人OVAL様の「SOSフィルター」のChrome拡張機能の開発を行�
 - 契約書、NDA
 - 報酬の金額および支払い方法の決定
 
-## お問い合わせ先
+## お問い合わせ
 
 {% include inquiry_form.html %}
