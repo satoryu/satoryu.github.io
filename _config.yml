@@ -91,8 +91,8 @@ plugins:
   - jekyll-tagging-related_posts
   - jemoji
 
-# theme: minimal-mistakes-jekyll
-remote_theme: mmistakes/minimal-mistakes
+theme: minimal-mistakes-jekyll
+# remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: dirt
 
 include:
