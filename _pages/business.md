@@ -1,5 +1,5 @@
 ---
-title: 仕事の依頼について
+title: 開発のご相談
 permalink: /business/
 read_time: false
 header:

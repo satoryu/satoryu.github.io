@@ -14,9 +14,9 @@ main:
   - title: 日記
     url: https://diary.satoryu.com
     description: プライベートな日記
-  - title: 仕事の依頼
+  - title: 開発のご相談
     url: /business/
-    description: 個人事業主として仕事を依頼したい場合はこちらよりお問い合わせください。
+    description: 少人数チームの開発をサポートします
   - title: お問い合わせ
     url: /contact/
     description: 各種お問い合わせはこちらから
