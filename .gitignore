@@ -9,3 +9,6 @@ _cache/*
 node_modules/
 
 .ruby-version
+
+.claude/settings.local.json
+
