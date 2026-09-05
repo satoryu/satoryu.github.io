@@ -13,3 +13,9 @@ header:
 ベストエフォートですので予めご了承ください。
 
 {% include inquiry_form.html %}
+
+フォームが表示されない場合は、[こちらのページ](https://forms.office.com/r/JW9f3KfmRd)から直接ご入力ください。
+{: .text-center}
+
+[開発のご相談のページに戻る](/business/){: .btn .btn--inverse}
+{: .text-center}
