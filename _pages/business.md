@@ -8,7 +8,7 @@ header:
   overlay_filter: rgba(35, 35, 35, 0.2)
   actions:
     - label: お問い合わせ
-      url: "/business/#お問い合わせ"
+      url: "/contact/"
 toc: true
 classes:
   - wide
@@ -126,7 +126,7 @@ NPO法人OVAL様の「SOSフィルター」のChrome拡張機能の開発を行�
 ### :v: その他
 
 上記のいずれにも該当しないようなものでも、気兼ねなくご相談ください。
-下記の[問い合わせフォーム](#お問い合わせフォーム)の「問い合わせ内容」に相談内容を明記してください。
+[問い合わせフォーム](/contact/)の「問い合わせ内容」に相談内容を明記してください。
 個人事業主を始めた目的の1つとして、自分の活動の幅を広げることとしています。
 私自身では思い浮かばないようなことで貢献できるご提案をいただけると、とても嬉しい限りです。
 
@@ -151,7 +151,7 @@ NPO法人OVAL様の「SOSフィルター」のChrome拡張機能の開発を行�
 
 ### 1. お問い合わせ
 
-[X（旧Twitter）](https://twitter.com/satoryuofficial)、[Facebookメッセンジャー](https://www.messenger.com/t/satoryu)、[メール](mailto:satoryu.1981@gmail.com)、または[問い合わせフォーム](#お問い合わせフォーム)からお問い合わせください。
+[X（旧Twitter）](https://twitter.com/satoryuofficial)、[Facebookメッセンジャー](https://www.messenger.com/t/satoryu)、[メール](mailto:satoryu.1981@gmail.com)、または[問い合わせフォーム](/contact/)からお問い合わせください。
 
 ### 2. 打ち合わせ（初回30分無料）
 
@@ -184,4 +184,9 @@ NPO法人OVAL様の「SOSフィルター」のChrome拡張機能の開発を行�
 
 ## お問い合わせ
 
-{% include inquiry_form.html %}
+ご相談やご依頼は、お問い合わせフォームからお願いいたします。
+初回のご相談（30分）は無料です。
+{: .text-center}
+
+[お問い合わせフォームへ](/contact/){: .btn .btn--success .btn--x-large}
+{: .text-center}
