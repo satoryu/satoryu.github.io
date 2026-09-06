@@ -1,17 +1,18 @@
 ---
 title: 開発のご相談
 permalink: /business/
-read_time: false
-header:
-  og_image: /assets/img/ogp.png
-  overlay_image: /assets/img/job_banner.png
-  overlay_filter: rgba(35, 35, 35, 0.2)
-  actions:
-    - label: お問い合わせ
-      url: "/contact/"
+eyebrow: Services
+lead: AIエージェントと一緒に開発する時代の、技術の判断役・伴走役。スポットの壁打ちから継続的な開発支援まで、必要な分だけご利用いただけます。初回30分のご相談は無料です。
+description: 佐藤竜也（satoryu）が個人事業として提供する、AI活用開発の相談・AIが書いたコードのレビュー・AIエージェント開発の導入伴走・Webサービス開発支援のサービス内容と料金の目安。
+image: /assets/img/ogp.png
+ga_group: business
 toc: true
-classes:
-  - wide
+actions:
+  - label: 無料相談を申し込む
+    url: /contact/
+    ga: cta_click
+  - label: 料金の目安を見る
+    url: /business/#pricing
 ---
 
 ## AIと一緒に開発する時代の、技術の相談役
@@ -23,7 +24,7 @@ AIエージェントの登場により、コードを書くこと自体は速く
 
 エンジニアのいる開発チームからの技術的なご相談はもちろん、AIを使ってソフトウェアを作っている非エンジニアの方からのご相談も歓迎します。
 
-## 選ばれる理由
+## 選ばれる理由 {#reasons}
 
 ### コードを「書く」だけでなく「判断してきた」経験
 
@@ -53,29 +54,32 @@ Regional Scrum Gathering Tokyo、スクラムフェス大阪・札幌、XP祭り
 
 ## 屋号
 
-佐藤流
+<figure class="brand-banner">
+  <img src="/assets/img/job_banner.png" alt="屋号「佐藤流」のバナー。SOFTWARE ENGINEER" width="1500" height="500" loading="lazy">
+  <figcaption>屋号: 佐藤流</figcaption>
+</figure>
 
 ## 事業内容
 
 ソフトウェア開発に関する技術的支援、相談
 
-## 提供サービス
+## 提供サービス {#services}
 
-- AI活用開発の相談・壁打ち
-- AIが書いたコードのレビュー・品質支援
-- AIエージェント開発の導入・活用の伴走
-- Webサービス開発の支援
-- Chrome拡張機能の開発
-- 講演
-- その他
+- [AI活用開発の相談・壁打ち](#ai-consulting)
+- [AIが書いたコードのレビュー・品質支援](#ai-code-review)
+- [AIエージェント開発の導入・活用の伴走](#ai-adoption)
+- [Webサービス開発の支援](#web-development)
+- [Chrome拡張機能の開発](#chrome-extension)
+- [講演](#talks)
+- [その他](#others)
 
-### :speech_balloon: AI活用開発の相談・壁打ち
+### AI活用開発の相談・壁打ち {#ai-consulting}
 
 「AIでツールを作ってみたが、このまま使い続けていいのか不安」「本番公開する前に専門家に見てほしい」「何から手をつければいいか相談したい」といったご相談を、スポットでお受けします。
 非エンジニアの方からのご相談も歓迎です。
 専門用語を使わない説明を心がけます。
 
-### :mag: AIが書いたコードのレビュー・品質支援
+### AIが書いたコードのレビュー・品質支援 {#ai-code-review}
 
 AIエージェントは高速にコードを生成しますが、そのコードが安全か、保守し続けられるかの判断には経験が必要です。
 セキュリティ、保守性、テストの観点から、AIが生成したコードを継続的にレビューします。
@@ -85,7 +89,7 @@ AIエージェントは高速にコードを生成しますが、そのコード
 - OSSライブラリdocx gemのメンテナとしてのコードレビュー、リリース判断
 - 新人エンジニアのためのコードレビュー、実装支援
 
-### :rocket: AIエージェント開発の導入・活用の伴走
+### AIエージェント開発の導入・活用の伴走 {#ai-adoption}
 
 Claude CodeなどのAIエージェントを開発に取り入れたいチームを支援します。
 
@@ -94,7 +98,7 @@ Claude CodeなどのAIエージェントを開発に取り入れたいチーム�
 **導入支援の提供実績はまだこれからの分野のため、初期のお客様にはモニター価格でお受けしています。**
 うまくいった点もつまずいた点も共有しながら、一緒に検証して進めます。
 
-### :computer: Webサービス開発の支援
+### Webサービス開発の支援 {#web-development}
 
 主にRuby、Ruby on RailsでのWebサービスの開発を15年以上続けてきました。
 その経験を活かし、Webアプリケーションの開発を支援します。
@@ -107,7 +111,7 @@ Claude CodeなどのAIエージェントを開発に取り入れたいチーム�
 - 新人エンジニアのためのコードレビュー、実装支援
 - スタートアップでのRuby on Railsのサーバーサイド開発
 
-### :robot: Chrome拡張機能の開発
+### Chrome拡張機能の開発 {#chrome-extension}
 
 Webブラウザ拡張機能の開発を行っています。
 標準技術であるWebExtensionsを使った拡張機能の開発が可能ですので、Chromeに限らず、Firefox、Edgeなどのブラウザにも対応可能です。
@@ -115,22 +119,23 @@ Webブラウザ拡張機能の開発を行っています。
 #### 過去の実績
 
 NPO法人OVAL様の「SOSフィルター」のChrome拡張機能の開発を行いました。
+個人開発のChrome拡張やOSSについては[ポートフォリオ](/portfolio/)をご覧ください。
 
 {% linkpreview "https://sos-filter.ova-japan.org/" %}
 
-### :microphone: 講演
+### 講演 {#talks}
 
 過去にカンファレンスなどで講演した内容の再演を受け付けております。
 過去の講演については、[こちら](/presentations)を御覧ください。
 
-### :v: その他
+### その他 {#others}
 
 上記のいずれにも該当しないようなものでも、気兼ねなくご相談ください。
 [問い合わせフォーム](/contact/)の「問い合わせ内容」に相談内容を明記してください。
 個人事業主を始めた目的の1つとして、自分の活動の幅を広げることとしています。
 私自身では思い浮かばないようなことで貢献できるご提案をいただけると、とても嬉しい限りです。
 
-## 料金の目安
+## 料金の目安 {#pricing}
 
 **初回のご相談（30分）は無料です。**「何を頼めるのか分からない」という段階でも、まずはお気軽にご連絡ください。
 
@@ -147,7 +152,7 @@ NPO法人OVAL様の「SOSフィルター」のChrome拡張機能の開発を行�
 
 ※ 上記は税別の目安です。ご要望をお伺いした上で、正式なお見積りをご提示いたします。
 
-## ご契約まで
+## ご契約まで {#flow}
 
 ### 1. お問い合わせ
 
@@ -188,5 +193,5 @@ NPO法人OVAL様の「SOSフィルター」のChrome拡張機能の開発を行�
 初回のご相談（30分）は無料です。
 {: .text-center}
 
-[お問い合わせフォームへ](/contact/){: .btn .btn--success .btn--x-large}
+[お問い合わせフォームへ](/contact/){: .button .button--primary .button--large data-ga="cta_click" data-ga-location="business_bottom"}
 {: .text-center}

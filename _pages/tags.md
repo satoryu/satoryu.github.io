@@ -1,6 +1,7 @@
 ---
-title: Tags
+title: タグ一覧
+excerpt: ブログ記事をタグから探せます。
 permalink: /tags/
 layout: tags
-author_profile: true
+ga_group: blog
 ---

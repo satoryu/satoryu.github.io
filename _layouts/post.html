@@ -1,0 +1,59 @@
+---
+layout: default
+---
+{%- assign cover = page.header.overlay_image | default: page.header.teaser -%}
+<article class="post page page--with-toc">
+  <header class="page-header">
+    <div class="container">
+      <p class="post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y年%-m月%-d日" }}</time>
+        {%- if page.tags.size > 0 -%}
+        <span class="post-meta__sep" aria-hidden="true">/</span>
+        <span class="post-meta__tags">{% for tag in page.tags %}<a href="{{ '/tags/' | relative_url }}#{{ tag | slugify }}">#{{ tag }}</a>{% endfor %}</span>
+        {%- endif -%}
+      </p>
+      <h1 class="page-title">{{ page.title }}</h1>
+    </div>
+  </header>
+  {%- if cover -%}
+  <div class="container post-cover"><img src="{{ cover | relative_url }}" alt="" loading="lazy"></div>
+  {%- endif -%}
+  <div class="container page-body">
+    <aside class="toc-aside">
+      <nav class="toc" id="toc" aria-label="目次" data-toc data-toc-source=".prose"></nav>
+    </aside>
+    <div class="prose">
+      {{ content }}
+    </div>
+  </div>
+  <footer class="container post-footer">
+    <div class="author-box">
+      <img class="author-box__avatar" src="{{ site.author.avatar | relative_url }}" alt="" width="72" height="72" loading="lazy">
+      <div>
+        <p class="author-box__name">{{ site.name }}（{{ site.author.handle }}）</p>
+        <p class="author-box__bio">{{ site.author.bio }}</p>
+        <p class="author-box__links"><a class="text-link" href="{{ '/about/' | relative_url }}">自己紹介</a><a class="text-link" href="{{ '/business/' | relative_url }}" data-ga="nav_click" data-ga-location="post_author">開発のご相談</a></p>
+      </div>
+    </div>
+    <aside class="post-cta">
+      <p class="post-cta__title">この記事の内容について、相談してみたいことはありますか？</p>
+      <p class="post-cta__text">AI活用開発の相談、コードレビュー、開発支援を個人事業として承っています。初回30分は無料です。</p>
+      <a class="button button--primary" href="{{ '/contact/' | relative_url }}" data-ga="cta_click" data-ga-location="post_bottom">相談してみる {% include icons.html name="arrow" %}</a>
+    </aside>
+    {%- assign related = page.related_posts | default: site.related_posts -%}
+    {%- if related and related.size > 0 -%}
+    <section class="related" aria-labelledby="related-heading">
+      <h2 class="related__title" id="related-heading">関連する記事</h2>
+      <div class="card-grid card-grid--3">
+        {%- for p in related limit: 3 -%}
+        {% include post-card.html post=p compact=true %}
+        {%- endfor -%}
+      </div>
+    </section>
+    {%- endif -%}
+    <nav class="post-nav" aria-label="前後の記事">
+      {%- if page.previous -%}<a class="post-nav__item post-nav__item--prev" href="{{ page.previous.url | relative_url }}"><span>前の記事</span>{{ page.previous.title }}</a>{%- else -%}<span></span>{%- endif -%}
+      {%- if page.next -%}<a class="post-nav__item post-nav__item--next" href="{{ page.next.url | relative_url }}"><span>次の記事</span>{{ page.next.title }}</a>{%- endif -%}
+    </nav>
+  </footer>
+</article>

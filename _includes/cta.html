@@ -1,0 +1,19 @@
+{%- assign cta_title = include.title | default: "まずは30分、話してみませんか。" -%}
+{%- assign cta_text = include.text | default: "「何を頼めるのか分からない」という段階でも大丈夫です。状況をお聞きして、私が力になれるかどうかを率直にお伝えします。初回30分のご相談は無料、1営業日以内に返信します。" -%}
+<section class="cta-band" aria-labelledby="cta-heading-{{ include.location }}">
+  <div class="container cta-band__inner">
+    <div>
+      <p class="eyebrow eyebrow--light">お問い合わせ</p>
+      <h2 class="cta-band__title" id="cta-heading-{{ include.location }}">{{ cta_title }}</h2>
+      <p class="cta-band__text">{{ cta_text }}</p>
+    </div>
+    <div class="cta-band__actions">
+      <a class="button button--primary button--large" href="{{ '/contact/' | relative_url }}" data-ga="cta_click" data-ga-location="{{ include.location }}">無料相談を申し込む {% include icons.html name="arrow" %}</a>
+      <p class="cta-band__alt">
+        <a href="{{ site.contact.x }}" target="_blank" rel="noopener" data-ga="contact_channel_click" data-ga-label="x" data-ga-location="{{ include.location }}">X の DM</a>、
+        <a href="{{ site.contact.messenger }}" target="_blank" rel="noopener" data-ga="contact_channel_click" data-ga-label="messenger" data-ga-location="{{ include.location }}">Messenger</a>、
+        <a href="mailto:{{ site.contact.email }}" data-ga="contact_channel_click" data-ga-label="email" data-ga-location="{{ include.location }}">メール</a>でも受け付けています。
+      </p>
+    </div>
+  </div>
+</section>

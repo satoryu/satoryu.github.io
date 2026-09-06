@@ -4,7 +4,10 @@
 
 ## プロジェクト概要
 
-これは佐藤竜也の個人ブログおよびポートフォリオサイトで、Jekyll ベースで構築されている。GitHub Pages で https://www.satoryu.com にホストされており、Minimal Mistakes テーマを使用している。
+これは佐藤竜也の個人サイトで、Jekyll ベースで構築されている。GitHub Pages で https://www.satoryu.com にホストされている。
+個人ブログであると同時に、個人事業主として行うソフトウェア開発の業務委託の問い合わせを呼び込むためのサイトでもある。訪問者が「相談してみたい」と思い、/contact/ に到達することをサイト全体の目的としている。
+
+テーマは外部の gem を使わず、このリポジトリ内で独自に実装している（`_layouts/`、`_includes/`、`_sass/`）。
 
 ## 開発コマンド
 
@@ -34,17 +37,37 @@ textlint のルールは日本語の文章規則を適用する:
 ## アーキテクチャ
 
 ### コンテンツ構成
-- `_posts/`: ブログ記事（Markdown 形式、YYYY-MM-DD-title.md のファイル名形式）
-- `_pages/`: 静的ページ（自己紹介、職務経歴、登壇資料、お問い合わせなど）
-- `_data/navigation.yml`: サイトナビゲーションの設定
-- `_includes/`: カスタム HTML パーシャル（リンクプレビュー、カスタムヘッドなど）
+- `index.md`: トップページ（`layout: home`）。文言は `_data/home.yml`、サービスは `_data/services.yml` から読み込む
+- `_posts/`: ブログ記事（Markdown 形式、YYYY-MM-DD-title.md のファイル名形式）。URL は `/:categories/YYYY/MM/DD/title.html`
+- `_pages/`: 静的ページ（自己紹介、職務経歴、講演資料、開発のご相談、ポートフォリオ、お問い合わせなど）
+- `_data/navigation.yml`: ヘッダー・フッターのメニュー
+- `_data/home.yml`: トップページの文言（ヒーロー、お悩み、選ばれる理由、進め方）
+- `_data/services.yml`: 提供サービス（id は `/business/` の見出しアンカーと一致させる）
+- `_data/portfolio.yml`: ポートフォリオの掲載内容（`featured: true` はトップページにも表示）
+- `_data/note_posts.json`: note の記事一覧。`scripts/fetch_note_posts.rb` が RSS から生成する（手で編集しない）
 - `_cache/`: jekyll-linkpreview のキャッシュファイル
-- `assets/`: 画像（`img/`）とスタイル（`styles/custom.css`）
+- `assets/img/`: 画像、`assets/css/main.scss`: スタイルのエントリポイント、`assets/js/site.js`: ナビ・目次・GA イベント
+- `docs/`: 開発者向けドキュメント（サイトには公開されない）
 
-### テーマと設定
-- テーマ: `minimal-mistakes-jekyll`（gem としてインストール、リモートテーマではない）
-- スキン: `dirt`
-- 主なプラグイン: jekyll-feed, jekyll-sitemap, jekyll-linkpreview, jekyll-tagging, jemoji, jekyll-gfm-admonitions
+### 独自テーマ
+- `_layouts/`: `default`（骨格）、`home`、`page`、`post`、`blog`、`portfolio`、`contact`、`tags`、`categories`
+- `_includes/`: `head`、`seo`（OGP・JSON-LD）、`analytics`（GA4）、`header`、`footer`、`cta`（問い合わせ誘導バンド）、`post-card`、`linkpreview`、`inquiry_form`、`icons`
+- `_sass/`: `_tokens`（色・フォント・余白の変数）、`_base`、`_layout`、`_components`、`_home`、`_prose`（本文）、`_syntax`
+- ページのフロントマターで使えるもの: `toc: true`（目次を表示）、`lead`（見出し下の説明）、`eyebrow`、`actions`（見出し下のボタン）、`hide_cta: true`、`ga_group`
+- 既存記事との互換のため `.text-center`、`.text-right`、`.full`、`.notice--*` クラスを維持している
+
+### Google Analytics
+- 本番ビルド（`JEKYLL_ENV=production`）のみタグを出力する。開発時はイベントをコンソールに `[GA debug]` として出力する
+- 問い合わせ導線のリンクには `data-ga="cta_click" data-ga-location="場所"` を付けると自動で計測される
+- 詳細は `docs/google-analytics.md` を参照
+
+### note 連携
+- トップページの「最近の発信」は Blog と note（https://note.com/satoryu）の記事を混ぜて表示する。詳細は `docs/note-integration.md` を参照
+
+### 主なプラグイン
+github-pages gem が `safe: true` を強制するため、`_plugins/` の独自プラグインは読み込まれない（本番の GitHub Pages でも同様）。Gemfile の `:jekyll_plugins` グループにある gem のみ使える。
+
+jekyll-feed, jekyll-sitemap, jekyll-linkpreview, jekyll-tagging-related_posts, jemoji, jekyll-gfm-admonitions
 
 ### CI/CD パイプライン
 GitHub Actions ワークフロー（`.github/workflows/build.yml`）:

@@ -1,0 +1,182 @@
+{
+  "username": "satoryu",
+  "profile_url": "https://note.com/satoryu",
+  "fetched_at": "2026-09-06T08:41:12Z",
+  "items": [
+    {
+      "title": "生成AIで実装が速くなった。その時間を何に使うのか",
+      "url": "https://note.com/satoryu/n/n975db9de2db9",
+      "date": "2026-09-04T02:40:39+09:00",
+      "summary": "先日、Attractor Talks Reloaded #4「生成AIとスクラム」で、吉羽龍太郎さんの「生成AIでスクラムによる開発はどう変わるか」という講演を聞いた。",
+      "image": "https://assets.st-note.com/production/uploads/images/310016543/rectangle_large_type_2_6f5b090845e0cb2de518965444a41d06.png?width=800"
+    },
+    {
+      "title": "人が学べると信じて、経験を次の作戦に変える",
+      "url": "https://note.com/satoryu/n/n3a06ed6a700b",
+      "date": "2026-09-03T14:55:17+09:00",
+      "summary": "最近、ある開発チームの支援をしている。少し前にも同じチームが関わるプロジェクトを数か月支援していて、進行が厳しくなった時期を一緒に乗り越えた。いくつかの問題が起き、そのたびに話をしたり、進め方を変えたり、ときには自分も手を動かしたりしながら…",
+      "image": "https://assets.st-note.com/production/uploads/images/309829289/rectangle_large_type_2_65cb6b5a310a584a377f9560abd8d5bc.png?width=800"
+    },
+    {
+      "title": "問題を解決するより、プロセスを育てる",
+      "url": "https://note.com/satoryu/n/n8515bdf28b3e",
+      "date": "2026-09-02T01:44:01+09:00",
+      "summary": "少し前まで、進行が厳しくなった別チームのプロジェクトを支援していた。自分も実装を引き受けたり、進め方を一緒に考えたりしながら、最終的にはなんとかプロジェクトを終えるところまでたどり着いた。 そして新しいプロジェクトが始まり、今度は少し違う形…",
+      "image": "https://assets.st-note.com/production/uploads/images/309358998/rectangle_large_type_2_f9f783316e89527822718bbed2a05919.png?width=800"
+    },
+    {
+      "title": "思考がぐるぐる。堂々巡りはデバッグだった",
+      "url": "https://note.com/satoryu/n/n5e3f678a1187",
+      "date": "2026-09-01T00:29:06+09:00",
+      "summary": "最近、仕事で少し慣れないことをやっている。開発しているプロダクトについて、実際の利用者に近い人たちを集めたフィードバック会を開くことになり、その会で何を伝え、何を体験してもらい、どのようなフィードバックを得たいのかを設計している。ひとまず自…",
+      "image": "https://assets.st-note.com/production/uploads/images/309010537/rectangle_large_type_2_0df68b3659f198099e9554db5be74a64.png?width=800"
+    },
+    {
+      "title": "ソフトウェアを作った。その次の仕事は何だろう",
+      "url": "https://note.com/satoryu/n/n1fe6c000f146",
+      "date": "2026-08-29T00:15:29+09:00",
+      "summary": "最近、開発しているプロダクトをどうやってお客さんの組織の中に広げていくかを考えている。 いま関わっているプロジェクトでは、プロダクトそのものは少しずつ形になってきた。次に考えなければならないのは、完成度を上げることだけではなく、実際に使う人…",
+      "image": "https://assets.st-note.com/production/uploads/images/307960935/rectangle_large_type_2_5002a3f1e5146095ac08d03a10580f99.png?width=800"
+    },
+    {
+      "title": "影響を与えているのか、それともただ注意を集めているだけなのか",
+      "url": "https://note.com/satoryu/n/n2b5e6f38bdb0",
+      "date": "2026-05-22T02:11:45+09:00",
+      "summary": "Xのタイムラインを眺めていると、異なる意見を持つ人同士が相手のことを「間違っている」だとか「それは嫌いだ」といったことを言い合っているの見かける。しばらくそういった会話を見ていても、お互いに相手の揚げ足を取り、論点が少しずつずれたりしながら…",
+      "image": "https://assets.st-note.com/production/uploads/images/278321276/rectangle_large_type_2_78212c4a2d8a075053baa6ef8be02fda.png?width=800"
+    },
+    {
+      "title": "嫌な思い出は何か学びを得てからじゃないと書き残したくない",
+      "url": "https://note.com/satoryu/n/nd98e3e636a65",
+      "date": "2026-05-21T01:20:03+09:00",
+      "summary": "天候や気圧の変化に弱く、今日一日は床に臥せっていた。そういうときにうつらうつらしていると、なぜだか良くない夢を見ることが多い。今日もまた嫌な過去に起きたことを思い出すような夢を見てしまい、目覚めが悪かった。気温が上がったせいなのか、夢のせい…",
+      "image": "https://assets.st-note.com/production/uploads/images/277982900/rectangle_large_type_2_46731b8b6ec36e83abd397a3c402556a.png?width=800"
+    },
+    {
+      "title": "git、VCSとの付き合い方を見直してみてもいいのかもしれない",
+      "url": "https://note.com/satoryu/n/n4abd57649063",
+      "date": "2026-05-20T00:26:49+09:00",
+      "summary": "生成AIで開発の仕方を見直されている中で、自分はgit、つまりVCSのことを見直してみようと考えている。というのも、これまでの人がコードを書いていた慣習としてコミットをしているにすぎないように感じているからだ。 これまではコミットの粒度は小…",
+      "image": "https://assets.st-note.com/production/uploads/images/277658322/rectangle_large_type_2_ac431225dc8f9cdddc804687f7a204fe.png?width=800"
+    },
+    {
+      "title": "驚きと飽きとの間",
+      "url": "https://note.com/satoryu/n/n7df0b40cc9d4",
+      "date": "2026-05-19T00:19:01+09:00",
+      "summary": "生成AIによりプログラミングに劇的な変化があることは事実だ。けれど、その受け取り方は今では二極化している。何か変化があるたびに驚きを伝えるひとたちがいる。彼らは驚き屋と呼ばれ、驚きとそれによる焦燥感を煽ろうとしている。その一方で、変化が起き…",
+      "image": "https://assets.st-note.com/production/uploads/images/277330096/rectangle_large_type_2_722e0d029626c9ea82d1d0fd1a29e6b8.png?width=800"
+    },
+    {
+      "title": "技術書の旬を逃してしまった",
+      "url": "https://note.com/satoryu/n/n7a62dc291164",
+      "date": "2026-05-18T02:39:15+09:00",
+      "summary": "デスクの脇に積んである本は気が向いたときにチマチマと読み進めている。特にガッツリと読むというより、仕事の中で気になったときにサッと手に取れるようにと、技術書やビジネス書などそういった本を脇に積むようにしている。その中から今日は一冊読み終えた…",
+      "image": "https://assets.st-note.com/production/uploads/images/277027306/rectangle_large_type_2_be353f84ef884d4041aa16ad634dcd95.png?width=800"
+    },
+    {
+      "title": "『会話の無い兄妹』だった私から、二人の姉弟に望むこと",
+      "url": "https://note.com/satoryu/n/n46a3aa7f6507",
+      "date": "2026-05-17T02:51:13+09:00",
+      "summary": "娘は高校2年生、息子は中学3年生。娘は今年高校受験を迎える息子が気になるようだ。二人は性格が異なる。娘はきっちりと進めたいタイプに対し、息子はマイペースでのんびりしている。なので、二人で一緒に何かをやるということはあまり無かったし、一緒にや…",
+      "image": "https://assets.st-note.com/production/uploads/images/276717622/rectangle_large_type_2_fae5bee2f94a3c6c5da21ae162c535e4.png?width=800"
+    },
+    {
+      "title": "フィードバックを受け取るにはまず自分のやっていることを説明可能にしないといけない",
+      "url": "https://note.com/satoryu/n/nbf24e7067b72",
+      "date": "2026-05-16T02:47:20+09:00",
+      "summary": "個人でも組織でも自浄作用というのが成果を出していくために必要になってくる。個人が、自分たちが持っている知識で成果を出していこうとする中で、その作成者が知らないこと・できないことによって誤りが成果物に埋め込まれてしまうことがある。これを取り除…",
+      "image": "https://assets.st-note.com/production/uploads/images/276421719/rectangle_large_type_2_505978065db4468792d98e90d5cb12ff.png?width=800"
+    },
+    {
+      "title": "合宿に来ている。",
+      "url": "https://note.com/satoryu/n/n3847afcbcb09",
+      "date": "2026-05-15T01:04:15+09:00",
+      "summary": "今日は疲れたので軽く起きたことを記録しておく。 今のメインの仕事のプロジェクトで関係している会社4社集まっての合宿に参加するために金沢まで来ている。 普段はオンラインでしか会話したことない人たちと直接会話できるのはチームビルディングとしてと…",
+      "image": "https://assets.st-note.com/production/uploads/images/276138217/rectangle_large_type_2_735a277f18343f59bcc1101de77feaa6.jpg?width=800"
+    },
+    {
+      "title": "チームのベストと、個人のネガティブ・ケイパビリティ",
+      "url": "https://note.com/satoryu/n/nbdd91a75bc44",
+      "date": "2026-05-14T01:01:03+09:00",
+      "summary": "湧き上がってくる感情については一旦それを認めることが大事だと思っている。たとえそれがネガティブな反応だったとしても、それが起きるという事実を認めることでその出来事をどう取り扱うべきかが見えてくる。 今日は「申し訳ない」という気持ちが出てきた…",
+      "image": "https://assets.st-note.com/production/uploads/images/275827056/rectangle_large_type_2_1789fa3f550217cd3950736c8307f9d7.png?width=800"
+    },
+    {
+      "title": "生成AIと共に進んできた毎日の記事執筆",
+      "url": "https://note.com/satoryu/n/n0dbee715b1b9",
+      "date": "2026-05-13T01:04:26+09:00",
+      "summary": "こうやって毎日何かしらnoteに書くようにして50日が経過した。数週間続けばいいものと思っていたので、自分の期待以上にこの習慣が続いていることになる。今では日付が変わる頃になると、何を書こうかという思考が自然と始まるようになっている。 それ…",
+      "image": "https://assets.st-note.com/production/uploads/images/275512756/rectangle_large_type_2_32ef101f3d2fcfb73355405b72ebd17b.png?width=800"
+    },
+    {
+      "title": "自分の景色の外側へ",
+      "url": "https://note.com/satoryu/n/n2f2d64547147",
+      "date": "2026-05-12T01:32:44+09:00",
+      "summary": "自分の眼から見えている風景だけじゃない、ということは意識しておかないとすぐに今の景色に囲まれてしまう。そういう恐怖みたいなのがある。自分と違う意見を聞いた時に否定したくなる気持ちになることがある。だけど、その違う意見が出る出どころや文脈があ…",
+      "image": "https://assets.st-note.com/production/uploads/images/275198356/rectangle_large_type_2_723e6a0aaeda736b5f183223eb73f737.png?width=800"
+    },
+    {
+      "title": "まだ離れきってはいないようだ",
+      "url": "https://note.com/satoryu/n/n9d07f12acedf",
+      "date": "2026-05-11T01:42:39+09:00",
+      "summary": "娘が高校2年、息子が中学3年ともなると、さすがに子の親離れというものを感じてくる。 かつては名探偵コナンやらドラえもんやらクレヨンしんちゃんといった毎年上映される映画を観に行きたいとせかされて一緒にいくものだと思っていた。それが次第に友達と…",
+      "image": "https://assets.st-note.com/production/uploads/images/274900363/rectangle_large_type_2_3c299d85aacece8206cfb8c85d2288ee.png?width=800"
+    },
+    {
+      "title": "積ん読を入れ替える",
+      "url": "https://note.com/satoryu/n/n7ffb326c02b1",
+      "date": "2026-05-10T02:41:58+09:00",
+      "summary": "ゴールデン・ウィークも終わるので、仕事はじめに向けて少しデスクを整理しようと思っている。例年通りのキーボードの掃除と脇に置いておく書籍を入れ替える。 この脇に置いている書籍は、その時々に自分が関心を持っている本を置くようにしている。今の構成…",
+      "image": "https://assets.st-note.com/production/uploads/images/274592762/rectangle_large_type_2_d624b09a4ae7d9e016f045bcb0d1e969.png?width=800"
+    },
+    {
+      "title": "温度を感じる本との出会い",
+      "url": "https://note.com/satoryu/n/nb2f2993fbbc1",
+      "date": "2026-05-09T02:05:24+09:00",
+      "summary": "本を読んで温かな気持ちになるということは初めての体験だった。 本当は息子が「主人公が成長する物語を読みたい」と言っていたので本を一緒に探していた。その時に気になったのが「西の魔女が死んだ」だ。",
+      "image": "https://assets.st-note.com/production/uploads/images/274286367/rectangle_large_type_2_5149d5cf570d37c48fb47216cd752029.png?width=800"
+    },
+    {
+      "title": "ヒゲが伸びてしまった。",
+      "url": "https://note.com/satoryu/n/n86852d3110d7",
+      "date": "2026-05-08T00:51:50+09:00",
+      "summary": "意図的に伸ばしているつもりは無かったのだが、気づけば3か月ほど放置していたのでヒゲが伸びてしまった。 どれくらいかというと、手で握れるほどの長さだ。ここまで伸ばしたのは人生で初めて。最近では考え事しているときなどに、指先で撫でてしまうクセが…",
+      "image": "https://assets.st-note.com/production/uploads/images/273994057/rectangle_large_type_2_84849217648796b52012375d12931579.png?width=800"
+    },
+    {
+      "title": "連休中になにかを成し遂げるよりも、そのあとのうずうずを見つける方が良いかもしれない。",
+      "url": "https://note.com/satoryu/n/nf3d03817b653",
+      "date": "2026-05-07T02:01:53+09:00",
+      "summary": "連休になるとその時に何か成し遂げようと思う目的を作ってしまう。「何か個人でつかうツールを作ってみよう」とか「今まで積んでいたこの本を読もう」とか。今回も「PLURALITYを読破するぞ」と意気込んでゴールデン・ウィークに突入した。 しかし、…",
+      "image": "https://assets.st-note.com/production/uploads/images/273702237/rectangle_large_type_2_2bbb3c6d7e8be4b395088f39d8f66272.png?width=800"
+    },
+    {
+      "title": "「養老孟司と小檜山賢二の虫展」に行ってきた。",
+      "url": "https://note.com/satoryu/n/nd615bdc5dc59",
+      "date": "2026-05-06T01:13:42+09:00",
+      "summary": "昆虫に興味がある息子からの提案で「養老孟司と小檜山賢二の虫展」の虫展に行ってきた。初めて写真展というものに行ってきた。昆虫の博物館の特別展と比べると、写真だからこそ出せる迫力を感じた。博物館だと昆虫標本から実物大の虫を知ることができる。しか…",
+      "image": "https://assets.st-note.com/production/uploads/images/273372854/rectangle_large_type_2_e2c6f3a2e54025800391be723cf5b3eb.jpeg?width=800"
+    },
+    {
+      "title": "読書の戦略を増やす",
+      "url": "https://note.com/satoryu/n/nfe0212dfe8ef",
+      "date": "2026-05-05T02:34:13+09:00",
+      "summary": "このゴールデン・ウィークはPLURALITYを読破するぞ！と息巻いていたのだが、実際に読み始めてみて作戦変更が必要と判断をした。",
+      "image": "https://assets.st-note.com/production/uploads/images/273085649/rectangle_large_type_2_af68bb297c88a033b6299d1737417dc7.png?width=800"
+    },
+    {
+      "title": "関心からの読書への入門",
+      "url": "https://note.com/satoryu/n/n4b0192a8e5f4",
+      "date": "2026-05-04T01:41:11+09:00",
+      "summary": "何事も興味があることから入っていくのが良いことだと思っている。 今日は中3の息子とふらりとブックオフに立ち寄った。普段であれば漫画コーナーを目指す息子だが、今日は新書や文庫の棚をじっくりと眺めていた。 どうやら養老孟司の本を探しているようだ…",
+      "image": "https://assets.st-note.com/production/uploads/images/272787940/rectangle_large_type_2_94176da654eeb5abcd2dd7ccce988b92.png?width=800"
+    },
+    {
+      "title": "苦手な困りごとがChatGPTで少し受け入れやすくなりそう",
+      "url": "https://note.com/satoryu/n/nfadbfe933487",
+      "date": "2026-05-03T02:10:36+09:00",
+      "summary": "ゴールデン・ウィーク初日から不運に見舞われたが、ChatGPTにだいぶ救われた。 一昨日あたりから家の蛇口からお湯が出たり出なかったりしていて給湯器が不調のようだったので、今日、東京ガスの人に診てもらった。結果としては、耐用年数は数年過ぎて…",
+      "image": "https://assets.st-note.com/production/uploads/images/272495421/rectangle_large_type_2_5a2da3f9e8090dce13c33368c3a2bdc7.png?width=800"
+    }
+  ]
+}

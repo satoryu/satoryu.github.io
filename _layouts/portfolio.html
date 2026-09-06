@@ -1,0 +1,54 @@
+---
+layout: default
+---
+<article class="page">
+  <header class="page-header">
+    <div class="container">
+      <p class="eyebrow">Portfolio</p>
+      <h1 class="page-title">{{ page.title }}</h1>
+      {%- if page.lead -%}<p class="page-lead">{{ page.lead }}</p>{%- endif -%}
+      <nav class="page-links" aria-label="セクション">
+        {%- for sec in site.data.portfolio.sections -%}
+        <a class="text-link" href="#{{ sec.id }}">{{ sec.title }}</a>
+        {%- endfor -%}
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+    <div class="prose prose--wide">{{ content }}</div>
+    {%- for sec in site.data.portfolio.sections -%}
+    <section class="work-section" id="{{ sec.id }}">
+      <div class="section__head">
+        <h2 class="section__title">{{ sec.title }}</h2>
+        {%- if sec.lead -%}<p class="section__lead">{{ sec.lead }}</p>{%- endif -%}
+      </div>
+      <div class="work-list">
+        {%- for w in sec.items -%}
+        <article class="work" id="{{ w.name | slugify }}">
+          <div class="work__head">
+            <p class="work__kind">{{ w.kind }}<span>{{ w.role }}</span>{% if w.client %}<span>{{ w.client }}</span>{% endif %}</p>
+            <h3 class="work__title">{{ w.name }}</h3>
+            {%- if w.status -%}<span class="badge">{{ w.status }}</span>{%- endif -%}
+          </div>
+          <p class="work__summary">{{ w.summary }}</p>
+          <div class="work__foot">
+            {%- if w.tech -%}
+            <ul class="chip-list" aria-label="技術要素">{% for t in w.tech %}<li>{{ t }}</li>{% endfor %}</ul>
+            {%- endif -%}
+            {%- if w.links -%}
+            <ul class="work__links">
+              {%- for l in w.links -%}
+              {%- assign is_ext = l.url | slice: 0, 4 -%}
+              <li><a class="text-link" href="{{ l.url | relative_url }}" {% if is_ext == "http" %}target="_blank" rel="noopener"{% endif %} data-ga="portfolio_link_click" data-ga-label="{{ w.name }} / {{ l.label }}">{{ l.label }} {% if is_ext == "http" %}{% include icons.html name="external" %}{% else %}{% include icons.html name="arrow" %}{% endif %}</a></li>
+              {%- endfor -%}
+            </ul>
+            {%- endif -%}
+          </div>
+        </article>
+        {%- endfor -%}
+      </div>
+    </section>
+    {%- endfor -%}
+  </div>
+</article>
+{% include cta.html location="portfolio_bottom" title="こうした開発を、あなたのチームでも。" text="個人開発で身につけた「小さく作って公開し、直し続ける」進め方を、受託開発や開発支援でも実践しています。作りたいものの相談から、既存コードのレビューまで、まずはお気軽にご連絡ください。" %}

@@ -1,0 +1,30 @@
+---
+layout: default
+---
+{%- assign sorted = site.categories | sort -%}
+<div class="page">
+  <header class="page-header">
+    <div class="container">
+      <p class="eyebrow">Blog</p>
+      <h1 class="page-title">{{ page.title }}</h1>
+    </div>
+  </header>
+  <div class="container">
+    {{ content }}
+    <ul class="tag-cloud" aria-label="カテゴリ一覧">
+      {%- for c in sorted -%}
+      <li><a href="#{{ c[0] | slugify }}">{{ c[0] }}<small>{{ c[1].size }}</small></a></li>
+      {%- endfor -%}
+    </ul>
+    {%- for c in sorted -%}
+    <section class="archive-group" id="{{ c[0] | slugify }}">
+      <h2 class="archive-group__title">{{ c[0] }}<small>{{ c[1].size }}件</small></h2>
+      <ul class="archive-list">
+        {%- for post in c[1] -%}
+        <li><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+        {%- endfor -%}
+      </ul>
+    </section>
+    {%- endfor -%}
+  </div>
+</div>

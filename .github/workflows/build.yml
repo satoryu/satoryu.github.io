@@ -5,16 +5,20 @@ on:
   pull_request:
     branches:
       - master
+  # note の新着記事をトップページに反映するため、毎朝 6 時（JST）に再ビルドする
+  schedule:
+    - cron: "0 21 * * *"
+  workflow_dispatch:
 
 jobs:
   lint:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
       - run: npm install
       - run: npm run lint
 
@@ -23,18 +27,20 @@ jobs:
     needs: lint
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3'
-      - run: bundle install
+          bundler-cache: true
+      - name: Fetch note posts
+        run: bundle exec ruby scripts/fetch_note_posts.rb
       - run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
       - uses: actions/upload-pages-artifact@v3
 
   deploy:
-    if: github.event_name == 'push'
+    if: github.event_name != 'pull_request'
     needs: build
 
     permissions:

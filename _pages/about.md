@@ -1,4 +1,6 @@
 ---
+eyebrow: About
+ga_group: about
 title: 自己紹介
 excerpt: |
   プログラマー。 \
@@ -11,6 +13,7 @@ excerpt: |
   実務を通じた自己研鑽のために個人事業主としても、プログラマーとしてソフトウェア開発をしている。
 
 permalink: /about/
+show_excerpt: true
 ---
 
 ## :man: 基本情報

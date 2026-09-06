@@ -1,6 +1,9 @@
 ---
+eyebrow: Career
+ga_group: about
 title: 職務経歴
 permalink: /curriculum_vitae/
+show_excerpt: true
 excerpt: 佐藤 竜也のこれまで携わってきたプロジェクトおよびそれらで使用した技術について
 header:
   teaser: /assets/img/scott-graham-OQMZwNd3ThU-unsplash.jpeg

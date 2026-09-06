@@ -1,6 +1,9 @@
 ---
+eyebrow: Talks
+ga_group: about
 title: 講演資料
 permalink: /presentations/
+show_excerpt: true
 excerpt:  これまでに勉強会やカンファレンスで発表したLTや講演のスライドを掲載
 header:
   teaser: /assets/img/teemu-paananen-bzdhc5b3Bxs-unsplash.jpeg

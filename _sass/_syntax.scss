@@ -1,0 +1,36 @@
+/* Rouge シンタックスハイライト（ダーク基調） */
+.highlight {
+  .c, .cm, .c1, .cs, .cd { color: #8a9099; font-style: italic; }
+  .cp, .cpf { color: #c9a26d; }
+  .err { color: #ff8a80; }
+  .k, .kc, .kd, .kn, .kp, .kr, .kv, .kt { color: #e6a1f5; }
+  .o, .ow { color: #9ad1e0; }
+  .p, .pi { color: #d5d0c6; }
+  .nb, .bp { color: #f0a58a; }
+  .nc, .nn { color: #f6c177; }
+  .nf, .fm { color: #7fd1b9; }
+  .nt { color: #f0a58a; }
+  .na { color: #c9d1ff; }
+  .nv, .vc, .vg, .vi, .vm { color: #c9d1ff; }
+  .no { color: #f6c177; }
+  .s, .s1, .s2, .sb, .sc, .sd, .se, .sh, .si, .sx, .sr, .ss, .sa, .dl { color: #a8d8a8; }
+  .m, .mi, .mf, .mh, .mo, .mb, .mx, .il { color: #f6c177; }
+  .gd { color: #ff8a80; background: rgba(255, 138, 128, 0.12); }
+  .gi { color: #a8d8a8; background: rgba(168, 216, 168, 0.12); }
+  .gh, .gu { color: #c9d1ff; font-weight: 700; }
+  .ge { font-style: italic; }
+  .gs { font-weight: 700; }
+  .w { color: #d5d0c6; }
+  .lineno { color: #6a707c; margin-right: 0.75em; user-select: none; }
+}
+
+/* はてなブログ形式の <pre class="code"> 内ハイライト */
+pre.code {
+  .synComment { color: #8a9099; font-style: italic; }
+  .synIdentifier { color: #c9d1ff; }
+  .synStatement { color: #e6a1f5; }
+  .synPreProc { color: #c9a26d; }
+  .synType { color: #f6c177; }
+  .synSpecial { color: #f0a58a; }
+  .synConstant { color: #a8d8a8; }
+}

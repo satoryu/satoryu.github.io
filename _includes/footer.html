@@ -1,0 +1,33 @@
+<footer class="site-footer">
+  <div class="container site-footer__grid">
+    <div class="site-footer__about">
+      <a class="brand brand--footer" href="{{ '/' | relative_url }}">
+        <img class="brand__logo" src="{{ '/assets/img/logo.png' | relative_url }}" alt="" width="36" height="36">
+        <span class="brand__text"><span class="brand__name">佐藤 竜也</span><span class="brand__sub">satoryu.com</span></span>
+      </a>
+      <p>{{ site.author.bio }}</p>
+      <ul class="social-list" aria-label="SNS">
+        {%- for s in site.social -%}
+        <li><a href="{{ s.url }}" target="_blank" rel="noopener me" aria-label="{{ s.label }}" data-ga="outbound_social" data-ga-label="{{ s.key }}">{% include icons.html name=s.key %}</a></li>
+        {%- endfor -%}
+      </ul>
+    </div>
+    <nav class="site-footer__nav" aria-label="サイトマップ">
+      <h2 class="site-footer__heading">サイトマップ</h2>
+      <ul>
+        {%- for item in site.data.navigation.footer -%}
+        <li><a href="{{ item.url | relative_url }}" {% if item.external %}target="_blank" rel="noopener"{% endif %}>{{ item.title }}{% if item.external %} {% include icons.html name="external" %}{% endif %}</a></li>
+        {%- endfor -%}
+      </ul>
+    </nav>
+    <div class="site-footer__contact">
+      <h2 class="site-footer__heading">ご相談はこちら</h2>
+      <p>初回30分のご相談は無料です。{{ site.contact.response_time }}に返信します。</p>
+      <a class="button button--primary" href="{{ '/contact/' | relative_url }}" data-ga="cta_click" data-ga-location="footer">お問い合わせフォームへ {% include icons.html name="arrow" %}</a>
+    </div>
+  </div>
+  <div class="container site-footer__bottom">
+    <small>&copy; {{ site.time | date: "%Y" }} {{ site.name }}（{{ site.author.handle }}）</small>
+    <small><a href="{{ '/feed.xml' | relative_url }}">RSS</a></small>
+  </div>
+</footer>
