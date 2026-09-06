@@ -1,0 +1,154 @@
+# ポートフォリオ。sections の順に /portfolio/ に表示する。
+# featured: true のものはトップページにも表示する。
+sections:
+  - id: oss
+    title: 個人開発・OSS
+    lead: 自分の困りごとから生まれたツールと、メンテナとして関わっているライブラリです。公開して、使われて、直し続けることを大切にしています。
+    items:
+      - name: docx
+        role: メンテナ
+        kind: Ruby gem
+        featured: true
+        status: 開発継続中
+        summary: Microsoft Word の .docx ファイルを Ruby から読み書きするライブラリ。世界中の開発者から寄せられる Pull Request をレビューし、リリースの可否を判断しています。2026年6月にはヘッダー・フッター対応などを含む4バージョンを1日でリリースしました。
+        tech: [Ruby, Nokogiri, Office Open XML]
+        links:
+          - label: GitHub
+            url: https://github.com/ruby-docx/docx
+          - label: RubyGems
+            url: https://rubygems.org/gems/docx
+          - label: 関連記事
+            url: /blog/2026/06/04/docx-gem-headers-footers-and-more.html
+      - name: Copy for Scrapbox
+        role: 作者
+        kind: Chrome拡張
+        featured: true
+        status: 公開中
+        summary: 開いているタブのリンクを Scrapbox（Cosense）記法で生成し、クリップボードにコピーする Chrome 拡張。複数タブの一括コピーにも対応。自分の日々のメモ習慣から生まれ、テストの整備を続けながら改善しています。
+        tech: [JavaScript, WebExtensions, Jest]
+        links:
+          - label: Chrome ウェブストア
+            url: https://chrome.google.com/webstore/detail/copy-for-scrapbox/kalhokahkhkmbkiliieonfdmdeajlnog
+          - label: GitHub
+            url: https://github.com/satoryu/copy-for-scrapbox
+          - label: 関連記事
+            url: /blog/2023/10/28/release-copy-for-scrapbox-v1-7-0.html
+      - name: MD Server
+        role: 作者
+        kind: npm パッケージ
+        featured: true
+        status: 公開中
+        summary: Markdown ファイルを HTML に変換して配信する軽量な Web サーバ。Mermaid 図のレンダリングやホットリロードに対応。要件定義から実装まで Claude Code と一緒に進めた、AIエージェント開発の実践例でもあります。
+        tech: [Node.js, TypeScript, Mermaid, Claude Code]
+        links:
+          - label: npm
+            url: https://www.npmjs.com/package/@satoryu/md-server
+          - label: GitHub
+            url: https://github.com/satoryu/md-server
+          - label: 関連記事
+            url: /blog/2026/02/08/release-md-server.html
+      - name: rakuten_web_service
+        role: 作者・メンテナ
+        kind: Ruby gem
+        status: 公開中
+        summary: 楽天ウェブサービス API を Ruby から扱うためのクライアントライブラリ。市場・ブックス・トラベルなど複数の API を統一的なインターフェースで提供します。
+        tech: [Ruby]
+        links:
+          - label: GitHub
+            url: https://github.com/rakuten-ws/rws-ruby-sdk
+          - label: RubyGems
+            url: https://rubygems.org/gems/rakuten_web_service
+      - name: Typetalk Notify
+        role: 作者
+        kind: GitHub Action
+        status: 公開中
+        summary: GitHub Actions のワークフローからチャットツール Typetalk に通知を送るアクション。リリースなど標準連携で拾えないイベントの通知に使えます。
+        tech: [Node.js, GitHub Actions]
+        links:
+          - label: GitHub Marketplace
+            url: https://github.com/marketplace/actions/typetalk-notify
+          - label: 関連記事
+            url: /blog/2020/03/31/Typetalkに通知を送るGitHub-Actionを作った-Typetalk-Notify.html
+      - name: rubocop-instance_variable_name
+        role: 作者
+        kind: Ruby gem
+        status: 公開中
+        summary: 短すぎるインスタンス変数名に警告を出す RuboCop 拡張。他人のコードをレビューする中で感じた「読みづらさ」を、仕組みで防ぐために作りました。
+        tech: [Ruby, RuboCop]
+        links:
+          - label: GitHub
+            url: https://github.com/satoryu/rubocop-instance_variable_name
+          - label: 関連記事
+            url: /blog/2019/07/17/release_rubocop_instance_variable_name.html
+      - name: undine
+        role: 作者
+        kind: Ruby gem
+        status: 公開中
+        summary: 捕捉されなかった例外が発生したとき、そのエラーメッセージを自動でブラウザ検索する開発用 gem。
+        tech: [Ruby]
+        links:
+          - label: GitHub
+            url: https://github.com/satoryu/undine
+          - label: 関連記事
+            url: /blog/2020/04/29/undine_released.html
+      - name: kamikiri
+        role: 作者
+        kind: CLI ツール
+        status: 公開中
+        summary: XML 文書から XPath で要素を抜き出すコマンドラインツール。複雑な XML の構造を、コードを書く前に手早く調べるために作りました。
+        tech: [Ruby, Nokogiri]
+        links:
+          - label: GitHub
+            url: https://github.com/satoryu/kamikiri
+          - label: 関連記事
+            url: /blog/2019/12/11/xml_processor_cli_kamikiri.html
+
+  - id: client-work
+    title: 受託開発の実績
+    lead: 個人事業として携わった開発の一部です。守秘義務のあるものは概要のみ記載しています。
+    items:
+      - name: SOSフィルター（Chrome拡張）
+        role: 開発
+        kind: 受託開発
+        client: NPO法人OVAL 様
+        featured: true
+        status: 公開中
+        summary: 検索キーワードから、悩みを抱えた人に相談窓口の情報を届けるブラウザ拡張。WebExtensions の標準技術で実装し、複数ブラウザへの展開を見据えた構成にしました。
+        tech: [JavaScript, WebExtensions]
+        links:
+          - label: 公式サイト
+            url: https://sos-filter.ova-japan.org/
+      - name: 文書間の類似度を計算する CLI ツール
+        role: 設計・実装
+        kind: 受託開発
+        status: 納品済み
+        summary: テキスト分析を用いて文書同士の類似度を計算するコマンドラインツールを実装しました。
+        tech: [Ruby, 自然言語処理]
+      - name: Azure 上での Ruby on Rails 実行環境の技術調査
+        role: 技術調査
+        kind: 技術支援
+        status: 納品済み
+        summary: Microsoft Azure 上で Ruby on Rails アプリケーションを運用するための構成を調査し、選択肢と推奨をまとめました。
+        tech: [Microsoft Azure, Ruby on Rails]
+      - name: スタートアップでのサーバーサイド開発
+        role: 実装・コードレビュー
+        kind: 開発支援
+        status: 契約終了
+        summary: Ruby on Rails によるサーバーサイド開発と、新人エンジニアのためのコードレビュー・実装支援を継続的に行いました。
+        tech: [Ruby on Rails]
+
+  - id: writing
+    title: 執筆・翻訳
+    lead: 開発の知見を、コード以外の形でも届けてきました。
+    items:
+      - name: アジャイルコーチの道具箱（日本語版）
+        role: 翻訳（一部）
+        kind: 書籍
+        status: 販売中
+        summary: Jimmy Janlén 著「Toolbox for the Agile Coach - Visualization Examples」の日本語訳の一部を担当しました。日本語版は読者数 1,000 人を超えています。
+        tech: [アジャイル, 翻訳]
+        links:
+          - label: Leanpub
+            url: https://leanpub.com/agiletoolbox-visualizationexamples-japanese
+          - label: 関連記事
+            url: /2023/01/27/agiletoolbox-visualizationexamples-japanese-readers-over-1000.html

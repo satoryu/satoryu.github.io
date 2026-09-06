@@ -1,99 +1,91 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing these this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Satoryu's Website
-title_separator: "-"
-name: Tatsuya Sato
-description: Website about Tatsuya Sato
+# サイト基本設定
+title: satoryu.com
+name: 佐藤 竜也
+tagline: AIと一緒につくる時代の、ソフトウェア開発の相談役
+description: 佐藤竜也（satoryu）の個人サイト。15年以上のWebアプリケーション開発とOSSメンテナの経験をもとに、AI時代のソフトウェア開発の相談・コードレビュー・開発支援を個人事業として提供しています。
 email: satoryu.1981@gmail.com
-logo: assets/img/logo.png
-google_analytics: G-P6RYL7T817
-repository: satoryu/satoryu.github.io
+url: "https://www.satoryu.com"
+baseurl: ""
+lang: ja
 timezone: Asia/Tokyo
+repository: satoryu/satoryu.github.io
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.satoryu.com" # the base hostname & protocol for your site
-
-## For SEO tags plugin
-author:
-  name: Tatsuya Sato
-  avatar: assets/img/profile.jpeg
-  bio: Passionate Programmer / Father for two kids / MOSH'SH MATE
-  location: Tokyo, Japan
-  email: satoryu.1981@gmail.com
-  links: &social-links
-    - label: GitHub
-      icon: fab fa-github-square
-      url: https://github.com/satoryu
-    - label: LinkedIn
-      icon: fab fa-linkedin
-      url: https://www.linkedin.com/in/satoryu/
-    - label: "Twitter"
-      icon: fab fa-twitter-square
-      url: https://twitter.com/satoryuofficial
-    - label: Facebook
-      icon: fab fa-facebook-square
-      url: https://www.facebook.com/satoryu
-    - label: Blog
-      icon: fas fa-blog
-      url: /blog/
-
-footer:
-  links: *social-links
-
-search: true
-google:
-  search_engine_id: 014230504068243774542:crkzkwew2vw
-
-# Social Sharing
+logo: /assets/img/logo.png
 og_image: /assets/img/ogp.png
+
+# Google Analytics 4（本番ビルド JEKYLL_ENV=production のときのみ読み込む）
+google_analytics: G-P6RYL7T817
+
+author:
+  name: 佐藤 竜也
+  handle: satoryu
+  nickname: さとりゅう
+  avatar: /assets/img/profile.jpeg
+  bio: プログラマー。Ruby / Ruby on Rails での Web 開発を 15 年以上。Ruby の docx gem メンテナ。AI エージェントと一緒に開発する日々の実践を、個人事業として支援に活かしています。
+  location: 東京
+  email: satoryu.1981@gmail.com
+
+# 問い合わせ手段
+contact:
+  form_url: https://forms.office.com/r/JW9f3KfmRd
+  form_embed_url: https://forms.office.com/r/JW9f3KfmRd?embed=true
+  email: satoryu.1981@gmail.com
+  x: https://twitter.com/satoryuofficial
+  messenger: https://www.messenger.com/t/satoryu
+  response_time: 1営業日以内
+
+# note（外部ブログ）。RSS を scripts/fetch_note_posts.rb で取得し _data/note_posts.json に保存する
+note:
+  username: satoryu
+  url: https://note.com/satoryu
+  # トップページに載せたくない記事の URL をここに列挙する
+  exclude: []
+
+social:
+  - label: GitHub
+    key: github
+    url: https://github.com/satoryu
+  - label: X
+    key: x
+    url: https://twitter.com/satoryuofficial
+  - label: LinkedIn
+    key: linkedin
+    url: https://www.linkedin.com/in/satoryu/
+  - label: Facebook
+    key: facebook
+    url: https://www.facebook.com/satoryu
+  - label: Speaker Deck
+    key: speakerdeck
+    url: https://speakerdeck.com/satoryu
+  - label: note
+    key: note
+    url: https://note.com/satoryu
+
 twitter:
   username: satoryuofficial
-social:
-  type: Person
-  name: Tatsuya Sato
-  links:
-    - https://twitter.com/satoryuofficial
-    - https://www.facebook.com/satoryu
-    - https://www.linkedin.com/in/satoryu/
-    - https://www.instagram.com/satoryu/
-    - https://github.com/satoryu
-    - https://speakerdeck.com/satoryu
 
-analytics:
-  provider: custom
-  google:
-    tracking_id: G-P6RYL7T817
-
-# Build settings
+# ビルド設定
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  hard_wrap: false
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# 記事の URL 構造（従来どおり /:categories/YYYY/MM/DD/title.html）
+permalink: /:categories/:year/:month/:day/:title:output_ext
 
 plugins:
   - jekyll-feed
   - jekyll-gfm-admonitions
-  - jekyll-include-cache
   - jekyll-linkpreview
-  - jekyll-remote-theme
   - jekyll-sitemap
   - jekyll/tagging
   - jekyll-tagging-related_posts
   - jemoji
-
-theme: minimal-mistakes-jekyll
-# remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: dirt
 
 include:
   - _pages
@@ -101,39 +93,27 @@ include:
 exclude:
   - api/
   - node_modules/
+  - vendor/
   - Gemfile*
   - package*.json
+  - CLAUDE.md
+  - README.md
+  - docs/
+  - scripts/
+  - .claude/
+  - .ruby-lsp/
+  - .textlintrc
 
 defaults:
   - scope:
       path: ""
       type: posts
     values:
-      layout: single
-      author_profile: true
-      read_time: false
-      comments: false
-      share: true
-      related: true
-      header:
-        teaser: /assets/img/james-harrison-vpOeXr5wmR4-unsplash.jpeg
-        overlay_image: /assets/img/james-harrison-vpOeXr5wmR4-unsplash.jpeg
-        overlay_filter: 0.7
-        caption: Photo by [James Harrison](https://unsplash.com/@jstrippa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/programming?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+      layout: post
+      ga_group: blog
   - scope:
       path: ""
       type: pages
     values:
-      layout: single
-      author_profile: true
-      read_time: false
-      comments: false
-      share: true
-      related: false
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+      layout: page
+      ga_group: page

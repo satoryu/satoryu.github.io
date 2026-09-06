@@ -1,0 +1,47 @@
+// デザイントークン
+// 「信頼できる相談相手」を表す、藍を基調にした落ち着いた配色。差し色のくすんだ金は最小限に使う。
+:root {
+  --paper: #f4f5f7;
+  --paper-deep: #e9ecf1;
+  --surface: #ffffff;
+  --ink: #1b2230;
+  --ink-soft: #3a4351;
+  --muted: #66707f;
+  --line: #d9dee6;
+  --line-strong: #bfc7d3;
+
+  --accent: #24467a;
+  --accent-deep: #1a3560;
+  --accent-soft: #e4eaf4;
+
+  --sea: #2f5f8f;
+  --sea-deep: #1e4266;
+  --sea-soft: #e4eaf4;
+
+  --gold: #b8892e;
+  --gold-deep: #7a5a17;
+  --gold-soft: #f5ecd7;
+
+  --dark: #141c2b;
+  --dark-soft: #1d2738;
+  --on-dark: #eef1f6;
+  --on-dark-muted: #aeb7c6;
+
+  --font-body: "Noto Sans JP", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", system-ui, -apple-system, sans-serif;
+  --font-display: "Zen Old Mincho", "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", serif;
+  --font-mono: "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace;
+
+  --radius: 10px;
+  --radius-lg: 18px;
+  --shadow: 0 1px 2px rgba(20, 28, 43, 0.05), 0 8px 24px -12px rgba(20, 28, 43, 0.16);
+  --shadow-hover: 0 2px 4px rgba(20, 28, 43, 0.07), 0 16px 32px -14px rgba(20, 28, 43, 0.26);
+
+  --container: 1120px;
+  --prose: 44rem;
+  --gutter: clamp(1.1rem, 4vw, 2.25rem);
+  --section-y: clamp(3.5rem, 9vw, 6.5rem);
+}
+
+$bp-sm: 640px;
+$bp-md: 880px;
+$bp-lg: 1080px;

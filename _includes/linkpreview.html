@@ -1,14 +1,10 @@
-<div class="linkpreview">
-  <div class="inner-wrapper">
-    <div class="preview-thumb" style="background-image: url('{{ link_image }}')"></div>
-
-    <div class="preview-body">
-      <h3 class="preview-title">
-        <a href="{{ link_url }}" target="_blank">{{ link_title }}</a>
-      </h3>
-      <div class="preview-content">
-      {{ link_description }}
-      </div>
-    </div>
-  </div>
-</div>
+<a class="linkpreview" href="{{ link_url }}" target="_blank" rel="noopener">
+  <span class="linkpreview__body">
+    <span class="linkpreview__title">{{ link_title }}</span>
+    <span class="linkpreview__desc">{{ link_description | strip_html | truncate: 120 }}</span>
+    <span class="linkpreview__domain">{{ link_domain | default: link_url }}</span>
+  </span>
+  {%- if link_image -%}
+  <span class="linkpreview__thumb" style="background-image:url('{{ link_image }}')"></span>
+  {%- endif -%}
+</a>

@@ -1,22 +1,32 @@
+# ヘッダーのメインメニュー（お問い合わせボタンは header.html で別途表示）
 main:
-  - title: 自己紹介
-    url: /about/
-    description: 自己紹介のページ
-  - title: 講演資料
-    url: /presentations/
-    description: これまで社外で講演した発表資料について
-  - title: 職務経歴
-    url: /curriculum_vitae/
-    description: 職務経歴
-  - title: Blog
-    url: /blog/
-    description: 個人として書いているブログ
-  - title: 日記
-    url: https://diary.satoryu.com
-    description: プライベートな日記
   - title: 開発のご相談
     url: /business/
-    description: 少人数チームの開発をサポートします
+  - title: ポートフォリオ
+    url: /portfolio/
+  - title: Blog
+    url: /blog/
+  - title: 自己紹介
+    url: /about/
+
+# フッターのサイトマップ
+footer:
+  - title: 開発のご相談
+    url: /business/
+  - title: ポートフォリオ
+    url: /portfolio/
+  - title: Blog
+    url: /blog/
+  - title: 自己紹介
+    url: /about/
+  - title: 職務経歴
+    url: /curriculum_vitae/
+  - title: 講演資料
+    url: /presentations/
+  - title: タグ一覧
+    url: /tags/
+  - title: 日記
+    url: https://diary.satoryu.com
+    external: true
   - title: お問い合わせ
     url: /contact/
-    description: 各種お問い合わせはこちらから

@@ -1,6 +1,6 @@
 ---
-title: Categories
+title: カテゴリ一覧
 permalink: /categories/
 layout: categories
-author_profile: true
+ga_group: blog
 ---

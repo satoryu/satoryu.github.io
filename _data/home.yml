@@ -1,0 +1,82 @@
+hero:
+  eyebrow: ソフトウェア開発の相談役・伴走役
+  title_lines:
+    - AIと一緒につくる時代の、
+    - 判断を任せられるエンジニア。
+  lead: >-
+    AIエージェントの登場で、コードを書くことは速く、安くなりました。
+    それでも「このまま公開していいのか」「保守し続けられるのか」を判断するには、経験が必要です。
+    15年以上のWebアプリケーション開発と、OSSライブラリのメンテナとしての経験をもとに、あなたの開発の判断役・伴走役を務めます。
+  primary:
+    label: 初回30分無料で相談する
+    url: /contact/
+  secondary:
+    label: できることを見る
+    url: /business/
+  notes:
+    - 1営業日以内に返信
+    - 非エンジニアの方も歓迎
+    - フルリモート対応
+
+trust:
+  - value: 15年+
+    label: Ruby / Rails でのWeb開発
+  - value: OSS
+    label: Ruby の docx gem メンテナ
+  - value: 登壇
+    label: RSGT・Scrum Fest・XP祭り
+  - value: 2位
+    label: Developers Summit 2018 ベストスピーカー賞
+
+pains:
+  heading: こんなときに、声をかけてください
+  items:
+    - title: AIで作ったものを、公開する前に誰かに見てほしい
+      text: 動いてはいるけれど、セキュリティや設計に不安が残る。専門家の目で一度確認したい。
+      service: ai-consulting
+    - title: AIが書いたコードが増えて、レビューが追いつかない
+      text: 生成されるコードの量にチームのレビューが間に合わず、品質の判断を後回しにしている。
+      service: ai-code-review
+    - title: チームにAIエージェント開発を取り入れたいが、進め方が分からない
+      text: Claude Code などを試したいものの、何から始め、どう定着させればよいか見えていない。
+      service: ai-adoption
+    - title: 小さなチームで、技術の判断を相談できる相手がいない
+      text: フルタイムの採用は重い。必要なときだけ、経験のあるエンジニアの視点を借りたい。
+      service: web-development
+
+reasons:
+  heading: 選ばれる理由
+  items:
+    - title: コードを「書く」だけでなく「判断してきた」経験
+      text: >-
+        Ruby の docx gem のメンテナとして、世界中の開発者から寄せられるコードをレビューし、リリースの可否を判断しています。
+        他人、そしてAIが書いたコードの品質を見極めることは、私が長く続けてきた仕事そのものです。
+      link:
+        label: 1日で4回リリースした日の記事
+        url: /blog/2026/06/04/docx-gem-headers-footers-and-more.html
+    - title: AIエージェント開発の実践者
+      text: >-
+        個人開発のほとんどを Claude Code で行い、要件定義から設計レビュー、実装までをAIに任せる開発スタイルを実践しています。
+        うまくいったことも、つまずいたことも発信しています。
+      link:
+        label: 1,000万件のCSVをClaude Codeで分析した事例
+        url: /blog/2026/01/17/csv-analysis-with-claude-code.html
+    - title: アジャイル開発・チーム改善の知見
+      text: >-
+        Regional Scrum Gathering Tokyo、スクラムフェス大阪・札幌、XP祭りなど、国内の主要なアジャイル開発カンファレンスで登壇してきました。
+        コードだけでなく、チームの進め方についても相談できます。
+      link:
+        label: 講演資料を見る
+        url: /presentations/
+
+steps:
+  heading: ご相談から契約までの流れ
+  items:
+    - title: お問い合わせ
+      text: フォームからご連絡ください。「何を頼めるか分からない」という状態でも構いません。1営業日以内に返信します。
+    - title: 初回相談（30分・無料）
+      text: オンラインで状況をお聞きします。私が力になれるか、どんな関わり方が合うかを率直にお伝えします。
+    - title: ご提案・ご契約
+      text: スポット相談、月額サポート、開発支援など、状況に合わせた形をご提案します。合意後に契約書・NDAを取り交わします。
+
+pricing_note: 初回のご相談（30分）は無料。スポット相談は5,000円〜/時間、月額サポートは50,000円/月からです。

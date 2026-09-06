@@ -1,0 +1,28 @@
+{%- comment -%}
+ブログ記事と note 記事を同じ見た目で出すカード。
+include: source("blog" | "note"), title, url, date, summary, image, location(任意)
+{%- endcomment -%}
+{%- assign is_note = false -%}{%- if include.source == "note" -%}{%- assign is_note = true -%}{%- endif -%}
+{%- assign img = include.image -%}
+{%- if img and img != "" -%}{%- unless img contains "://" -%}{%- assign img = img | relative_url -%}{%- endunless -%}{%- endif -%}
+{%- assign href = include.url -%}{%- unless is_note -%}{%- assign href = include.url | relative_url -%}{%- endunless -%}
+{%- assign loc = include.location | default: "home_articles" -%}
+<article class="article-card {% if is_note %}article-card--note{% endif %}">
+  <a class="article-card__link" href="{{ href }}" {% if is_note %}target="_blank" rel="noopener" data-ga="external_article_click" data-ga-location="{{ loc }}" data-ga-label="note"{% else %}data-ga="nav_click" data-ga-location="{{ loc }}" data-ga-label="blog"{% endif %}>
+    {%- if img and img != "" -%}
+    <span class="article-card__thumb" style="background-image:url('{{ img }}')"></span>
+    {%- else -%}
+    {%- comment -%}画像のない記事は、サイトの配色でタグ名を大きく出すプレースホルダーにする{%- endcomment -%}
+    <span class="article-card__thumb article-card__thumb--placeholder" aria-hidden="true"><span>{{ include.tag | default: "Blog" }}</span></span>
+    {%- endif -%}
+    <span class="article-card__body">
+      <span class="article-card__meta">
+        <span class="article-card__source">{% if is_note %}note{% else %}Blog{% endif %}</span>
+        <time datetime="{{ include.date | date_to_xmlschema }}">{{ include.date | date: "%Y.%m.%d" }}</time>
+      </span>
+      <span class="article-card__title">{{ include.title }}</span>
+      {%- assign summary = include.summary | strip_html | strip_newlines | strip -%}
+      {%- if summary != "" -%}<span class="article-card__summary">{{ summary | truncate: 90 }}</span>{%- endif -%}
+    </span>
+  </a>
+</article>

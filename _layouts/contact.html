@@ -1,0 +1,50 @@
+---
+layout: default
+---
+<article class="page contact-page">
+  <header class="page-header">
+    <div class="container">
+      <p class="eyebrow">Contact</p>
+      <h1 class="page-title">{{ page.title }}</h1>
+      {%- if page.lead -%}<p class="page-lead">{{ page.lead }}</p>{%- endif -%}
+    </div>
+  </header>
+  <div class="container contact-grid">
+    <div class="contact-grid__form">
+      {% include inquiry_form.html %}
+    </div>
+    <aside class="contact-grid__aside">
+      <section class="contact-panel">
+        <h2 class="contact-panel__title">お問い合わせ後の流れ</h2>
+        <ol class="mini-steps">
+          <li><strong>{{ site.contact.response_time }}に返信</strong>いただいた内容を確認し、メールでご連絡します。</li>
+          <li><strong>初回相談（30分・無料）</strong>オンラインで状況をお聞きします。</li>
+          <li><strong>ご提案</strong>関わり方と料金の目安をご提案し、合意後に契約します。</li>
+        </ol>
+      </section>
+      <section class="contact-panel">
+        <h2 class="contact-panel__title">その他の連絡方法</h2>
+        <ul class="channel-list">
+          <li><a href="{{ site.contact.x }}" target="_blank" rel="noopener" data-ga="contact_channel_click" data-ga-label="x" data-ga-location="contact_page">{% include icons.html name="x" %}X（旧Twitter）の DM</a></li>
+          <li><a href="{{ site.contact.messenger }}" target="_blank" rel="noopener" data-ga="contact_channel_click" data-ga-label="messenger" data-ga-location="contact_page">{% include icons.html name="messenger" %}Facebook Messenger</a></li>
+          <li><a href="mailto:{{ site.contact.email }}" data-ga="contact_channel_click" data-ga-label="email" data-ga-location="contact_page">{% include icons.html name="mail" %}{{ site.contact.email }}</a></li>
+        </ul>
+      </section>
+      <section class="contact-panel">
+        <h2 class="contact-panel__title">よくあるご質問</h2>
+        <dl class="faq">
+          <dt>まだ依頼内容が固まっていません。</dt>
+          <dd>問題ありません。「何を頼めるのか分からない」段階のご相談こそ歓迎です。初回相談で一緒に整理します。</dd>
+          <dt>非エンジニアでも相談できますか？</dt>
+          <dd>できます。AIでツールを作っている方からのご相談も多く、専門用語を使わない説明を心がけています。</dd>
+          <dt>日中の打ち合わせは可能ですか？</dt>
+          <dd>本業との調整により対応できる場合があります。非同期のやり取りや平日夜間・週末が中心です。</dd>
+        </dl>
+        <a class="text-link" href="{{ '/business/' | relative_url }}" data-ga="nav_click" data-ga-location="contact_page">サービスと料金の詳細を見る {% include icons.html name="arrow" %}</a>
+      </section>
+    </aside>
+  </div>
+  {%- if content != "" -%}
+  <div class="container"><div class="prose">{{ content }}</div></div>
+  {%- endif -%}
+</article>

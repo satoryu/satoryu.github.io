@@ -1,0 +1,31 @@
+---
+layout: default
+---
+{%- assign sorted_tags = site.tags | sort -%}
+<div class="page">
+  <header class="page-header">
+    <div class="container">
+      <p class="eyebrow">Blog</p>
+      <h1 class="page-title">{{ page.title }}</h1>
+      {%- if page.excerpt -%}<p class="page-lead">{{ page.excerpt | strip_html }}</p>{%- endif -%}
+    </div>
+  </header>
+  <div class="container">
+    {{ content }}
+    <ul class="tag-cloud" aria-label="タグ一覧">
+      {%- for tag in sorted_tags -%}
+      <li><a href="#{{ tag[0] | slugify }}">{{ tag[0] }}<small>{{ tag[1].size }}</small></a></li>
+      {%- endfor -%}
+    </ul>
+    {%- for tag in sorted_tags -%}
+    <section class="archive-group" id="{{ tag[0] | slugify }}">
+      <h2 class="archive-group__title">{{ tag[0] }}<small>{{ tag[1].size }}件</small></h2>
+      <ul class="archive-list">
+        {%- for post in tag[1] -%}
+        <li><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+        {%- endfor -%}
+      </ul>
+    </section>
+    {%- endfor -%}
+  </div>
+</div>

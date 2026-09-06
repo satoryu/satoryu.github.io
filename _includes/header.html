@@ -1,0 +1,26 @@
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.author.nickname }}（{{ site.name }}）のトップページ">
+      <img class="brand__logo" src="{{ '/assets/img/logo.png' | relative_url }}" alt="" width="36" height="36">
+      <span class="brand__text">
+        <span class="brand__name">さとりゅう</span>
+        <span class="brand__sub">satoryu.com</span>
+      </span>
+    </a>
+    <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false">
+      <span class="nav-toggle__bar"></span>
+      <span class="visually-hidden">メニュー</span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="サイト内メニュー">
+      <ul class="site-nav__list">
+        {%- for item in site.data.navigation.main -%}
+        {%- assign is_current = false -%}
+        {%- if item.url == page.url -%}{%- assign is_current = true -%}{%- endif -%}
+        {%- if item.url == "/blog/" and page.layout == "post" -%}{%- assign is_current = true -%}{%- endif -%}
+        <li><a href="{{ item.url | relative_url }}" {% if is_current %}aria-current="page"{% endif %}>{{ item.title }}</a></li>
+        {%- endfor -%}
+      </ul>
+      <a class="button button--primary button--small site-nav__cta" href="{{ '/contact/' | relative_url }}" data-ga="cta_click" data-ga-location="header">お問い合わせ</a>
+    </nav>
+  </div>
+</header>
