@@ -57,9 +57,9 @@ textlint のルールは日本語の文章規則を適用する:
 
 ### 独自テーマ
 - `_layouts/`: `default`（骨格）、`home`、`page`、`post`、`blog`、`portfolio`、`contact`、`tags`、`categories`
-- `_includes/`: `head`、`seo`（OGP・JSON-LD）、`analytics`（GA4）、`header`、`footer`、`cta`（問い合わせ誘導バンド）、`post-card`、`linkpreview`、`inquiry_form`、`icons`
+- `_includes/`: `head`、`seo`（OGP・JSON-LD）、`analytics`（GA4）、`header`、`footer`、`cta`（問い合わせ誘導バンド）、`share`（SNS シェアボタン）、`post-card`、`article-card`、`linkpreview`、`inquiry_form`、`icons`
 - `_sass/`: `_tokens`（色・フォント・余白の変数）、`_base`、`_layout`、`_components`、`_home`、`_prose`（本文）、`_syntax`
-- ページのフロントマターで使えるもの: `toc: true`（目次を表示）、`lead`（見出し下の説明）、`eyebrow`、`actions`（見出し下のボタン）、`hide_cta: true`、`ga_group`
+- ページのフロントマターで使えるもの: `toc: true`（目次を表示）、`lead`（見出し下の説明）、`eyebrow`、`actions`（見出し下のボタン）、`hide_cta: true`、`hide_share: true`（シェアボタンを出さない）、`ga_group`
 - 既存記事との互換のため `.text-center`、`.text-right`、`.full`、`.notice--*` クラスを維持している
 
 ### Google Analytics

@@ -1,0 +1,14 @@
+{%- comment -%}
+ページを SNS にシェアするボタン。記事・コンテンツページの本文末尾に置く。
+フロントマターで hide_share: true を指定すると出さない。
+{%- endcomment -%}
+{%- assign share_url = page.url | absolute_url | url_encode -%}
+{%- assign share_text = page.title | append: " | " | append: site.title | url_encode -%}
+<aside class="share" aria-labelledby="share-heading">
+  <p class="share__title" id="share-heading">この{% if page.layout == "post" %}記事{% else %}ページ{% endif %}をシェアする</p>
+  <ul class="share__list">
+    <li><a class="share__button share__button--x" href="https://twitter.com/intent/tweet?text={{ share_text }}&url={{ share_url }}&via={{ site.twitter.username }}" target="_blank" rel="noopener" data-ga="share_click" data-ga-label="x">{% include icons.html name="x" %}<span>X</span></a></li>
+    <li><a class="share__button share__button--facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ share_url }}" target="_blank" rel="noopener" data-ga="share_click" data-ga-label="facebook">{% include icons.html name="facebook" %}<span>Facebook</span></a></li>
+    <li><a class="share__button share__button--linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url={{ share_url }}" target="_blank" rel="noopener" data-ga="share_click" data-ga-label="linkedin">{% include icons.html name="linkedin" %}<span>LinkedIn</span></a></li>
+  </ul>
+</aside>

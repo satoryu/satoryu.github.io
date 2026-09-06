@@ -26,6 +26,9 @@ layout: default
     {%- endif -%}
     <div class="prose">
       {{ content }}
+      {%- unless page.hide_share -%}
+      {% include share.html %}
+      {%- endunless -%}
     </div>
   </div>
 </article>

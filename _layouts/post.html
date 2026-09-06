@@ -27,6 +27,9 @@ layout: default
     </div>
   </div>
   <footer class="container post-footer">
+    {%- unless page.hide_share -%}
+    {% include share.html %}
+    {%- endunless -%}
     <div class="author-box">
       <img class="author-box__avatar" src="{{ site.author.avatar | relative_url }}" alt="" width="72" height="72" loading="lazy">
       <div>

@@ -436,3 +436,30 @@ a.card:hover { transform: translateY(-3px); box-shadow: var(--shadow-hover); bor
     color: var(--on-dark); letter-spacing: 0.06em; text-align: center; line-height: 1.3;
   }
 }
+
+/* ---------- SNS シェア ---------- */
+.share {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line);
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem;
+  .prose & { margin-top: 3rem; }
+}
+.share__title { font-size: 0.85rem; font-weight: 700; color: var(--muted); letter-spacing: 0.04em; }
+.share__list { list-style: none; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.share__button {
+  display: inline-flex; align-items: center; gap: 0.45rem;
+  padding: 0.45rem 0.95rem;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 0.85rem; font-weight: 700;
+  text-decoration: none;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+  svg { width: 1em; height: 1em; }
+  &:hover { color: #fff; transform: translateY(-1px); }
+}
+.share__button--x:hover { background: #000; border-color: #000; }
+.share__button--facebook:hover { background: #1877f2; border-color: #1877f2; }
+.share__button--linkedin:hover { background: #0a66c2; border-color: #0a66c2; }

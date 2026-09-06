@@ -49,6 +49,9 @@ layout: default
       </div>
     </section>
     {%- endfor -%}
+    {%- unless page.hide_share -%}
+    {% include share.html %}
+    {%- endunless -%}
   </div>
 </article>
 {% include cta.html location="portfolio_bottom" title="こうした開発を、あなたのチームでも。" text="個人開発で身につけた「小さく作って公開し、直し続ける」進め方を、受託開発や開発支援でも実践しています。作りたいものの相談から、既存コードのレビューまで、まずはお気軽にご連絡ください。" %}

@@ -34,6 +34,7 @@ GA4 の「コンテンツグループ」ディメンションでページ種別�
 | `external_article_click`      | トップページの「最近の発信」で note の記事・プロフィールをクリック            | `cta_label`（note / note_profile）            |
 | `portfolio_link_click`        | ポートフォリオ内の外部リンク・関連記事のクリック                     | `cta_label`（作品名 / リンク名）              |
 | `outbound_social`             | フッターの SNS リンクのクリック                                      | `cta_label`                                   |
+| `share_click`                 | 記事・ページ末尾のシェアボタン（X / Facebook / LinkedIn）のクリック   | `cta_label`（x / facebook / linkedin）        |
 
 `cta_location` の値は CTA の設置場所を表す（`header`, `hero`, `flow`, `footer`, `home_bottom`, `page_bottom`, `post_bottom`, `blog_bottom`, `portfolio_bottom`, `business_bottom`, `page_header`, `contact_page` など）。
 どの場所の CTA が問い合わせに結びついているかを比較できる。
