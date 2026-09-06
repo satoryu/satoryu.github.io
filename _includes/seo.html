@@ -1,6 +1,6 @@
 {%- assign page_title = page.title | default: site.title -%}
 {%- if page.url == "/" -%}
-  {%- assign full_title = site.name | append: "（" | append: site.author.handle | append: "）| " | append: site.tagline -%}
+  {%- assign full_title = site.author.nickname | append: "（" | append: site.name | append: "）| " | append: site.tagline -%}
 {%- else -%}
   {%- assign full_title = page_title | append: " | " | append: site.title -%}
 {%- endif -%}
