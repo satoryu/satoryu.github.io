@@ -1,25 +1,25 @@
 # 提供サービス。id は /business/ ページ内の見出しアンカーと一致させる。
-- id: ai-consulting
-  title: AI活用開発の相談・壁打ち
-  summary: 「AIでツールを作ったが、このまま使い続けていいのか」「本番公開の前に見てほしい」といった相談を、スポットでお受けします。専門用語を使わない説明を心がけます。
+- id: tech-consulting
+  title: スポット技術相談・設計レビュー
+  summary: Rails などの技術選定、システム設計、Azure の構成について、選択肢とトレードオフを整理します。壁打ちと簡単なメモまでをスポットでお受けします。
   price: 5,000円〜 / 時間
   price_note: 初回30分は無料
-  for: 非エンジニアの方、ひとりで開発している方
-- id: ai-code-review
-  title: AIが書いたコードのレビュー・品質支援
-  summary: AIが生成したコードを、セキュリティ・保守性・テストの観点から継続的にレビューします。OSSメンテナとして培ったレビューの目で、公開して問題ないかを判断します。
-  price: 50,000円〜 / 月
-  price_note: 非同期のレビューと月1回のミーティング
-  for: 少人数の開発チーム、レビュアーが不足しているチーム
-- id: ai-adoption
-  title: AIエージェント開発の導入・活用の伴走
-  summary: Claude Code などのAIエージェントを開発に取り入れたいチームを支援します。自身の実践で得た、うまくいった点もつまずいた点も共有しながら、一緒に検証して進めます。
+  for: 技術の判断を相談する相手がほしいチーム、ひとりで開発している方
+- id: development-direction
+  title: 開発方針・技術的意思決定の支援
+  summary: 要求と制約を整理し、MVP や初回リリースの範囲、優先順位、リスク、次の行動を一緒に決めていきます。
+  price: 5,000円〜 / 時間
+  price_note: 継続する場合は月額サポート（50,000円〜 / 月）
+  for: 何から作るべきか決めかねているチーム、非エンジニアの方
+- id: ai-workflow
+  title: AI活用・開発ワークフロー支援
+  summary: Claude Code などの活用方針、品質と保守性の保ち方、導入の試し方を一緒に検証します。個人での実践で得た、うまくいった点もつまずいた点も共有します。
   price: 70,000円 / 月
   price_note: 提供実績づくりのためのモニター価格
-  for: AIエージェント開発をこれから始めるチーム
-- id: web-development
-  title: Webサービス・Chrome拡張の開発支援
-  summary: Ruby / Ruby on Rails を中心としたWebアプリケーション開発と、WebExtensions によるブラウザ拡張の開発を、実装まで含めて支援します。
-  price: 100,000円〜 / 月
-  price_note: Chrome拡張は個別見積り
-  for: 実装まで任せたいチーム、新規サービスの立ち上げ
+  for: AIを開発に取り入れたいチーム、AIでツールを作っている方
+- id: spot-development
+  title: スポット開発・技術検証
+  summary: Ruby / Rails、Web API、Azure、WebExtensions を使った限定的な改修や PoC を、実装範囲・納期・検収範囲を事前に合意して進めます。
+  price: 個別見積り
+  price_note: 継続開発は100,000円〜 / 月
+  for: 小さく作って確かめたいチーム、新規サービスの立ち上げ
