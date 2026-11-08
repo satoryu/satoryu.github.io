@@ -1,8 +1,8 @@
 # サイト基本設定
 title: satoryu.com
 name: 佐藤 竜也
-tagline: AIと一緒につくる時代の、ソフトウェア開発の相談役
-description: 佐藤竜也（satoryu）の個人サイト。15年以上のWebアプリケーション開発とOSSメンテナの経験をもとに、AI時代のソフトウェア開発の相談・コードレビュー・開発支援を個人事業として提供しています。
+tagline: 技術的な判断から実装まで、ソフトウェア開発の相談と支援
+description: 佐藤竜也（satoryu）の個人サイト。15年以上のWeb開発・受託開発・OSSメンテナンスの経験をもとに、技術選定や設計の相談、開発方針の整理、AI活用、小規模な実装・検証を個人事業として支援しています。
 email: satoryu.1981@gmail.com
 url: "https://www.satoryu.com"
 baseurl: ""
@@ -21,7 +21,7 @@ author:
   handle: satoryu
   nickname: さとりゅう
   avatar: /assets/img/profile.jpeg
-  bio: プログラマー。Ruby / Ruby on Rails での Web 開発を 15 年以上。Ruby の docx gem メンテナ。AI エージェントと一緒に開発する日々の実践を、個人事業として支援に活かしています。
+  bio: プログラマー。Ruby / Ruby on Rails での Web 開発を 15 年以上。Ruby の docx gem メンテナ。技術的な相談から小規模な設計・実装・検証まで、個人事業として支援しています。
   location: 東京
   email: satoryu.1981@gmail.com
 

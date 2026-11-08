@@ -121,7 +121,7 @@
 .reason-list {
   list-style: none; counter-reset: reason;
   display: grid; gap: 1.5rem;
-  @media (min-width: $bp-md) { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2rem; }
+  @media (min-width: $bp-md) { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; }
 }
 .reason {
   counter-increment: reason;
